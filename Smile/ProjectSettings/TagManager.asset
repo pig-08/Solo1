@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - ButtonWindow
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Wall
+    uniqueID: 862123863
+    locked: 0
+  - name: Floor
+    uniqueID: 3376612051
+    locked: 0
+  - name: Border line
+    uniqueID: 2281929653
+    locked: 0
+  - name: Border line(NO)
+    uniqueID: 3326536367
+    locked: 0
+  - name: Object
+    uniqueID: 3723561015
+    locked: 0
+  - name: Player
+    uniqueID: 1727369501
+    locked: 0
+  - name: Wall(Player)
+    uniqueID: 3885512975
+    locked: 0
+  - name: Border line(Player)
+    uniqueID: 2861536637
+    locked: 0

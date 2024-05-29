@@ -8,6 +8,7 @@ public class PlayerPosition : MonoBehaviour
 {
     [SerializeField]private bool _FirstFloor;
     [SerializeField]private bool _SecondFloor;
+    [SerializeField]private bool _BedRoom;
     private void Awake()
     {
         DontDestroyOnLoad(this);
@@ -31,6 +32,16 @@ public class PlayerPosition : MonoBehaviour
             transform.position = new Vector3(-8, -0.7f);
             _FirstFloor = false;
         }
+        else if (_FirstFloor && _BedRoom && SceneManager.GetActiveScene().name == "FirstFloor")
+        {
+            transform.position = new Vector3(0.8f, 1.5f);
+            _BedRoom = false;
+        }
+        else if (_FirstFloor && _BedRoom && SceneManager.GetActiveScene().name == "BedRoom")
+        {
+            transform.position = new Vector3(-1, -2);
+            _FirstFloor = false;
+        }
     }
 
     public void SceneLocation()
@@ -48,6 +59,10 @@ public class PlayerPosition : MonoBehaviour
         else if (SceneManager.GetActiveScene().name == "SecondFloor")
         {
             _SecondFloor = true;
+        }
+        else if (SceneManager.GetActiveScene().name == "BedRoom")
+        {
+            _BedRoom = true;
         }
     }
 

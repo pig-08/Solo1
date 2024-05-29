@@ -66,3 +66,6 @@ TagManager:
   - name: Border line(Player)
     uniqueID: 2861536637
     locked: 0
+  - name: Obgect(Player)
+    uniqueID: 4078135577
+    locked: 0

@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/SecondFloor.unity
     guid: d8b3dd8e6002c4e489a1535b58015324
   - enabled: 1
-    path: Assets/Scenes/Bed.unity
+    path: Assets/Scenes/BedRoom.unity
     guid: e7c32187f7eb5f24982de97334c6c215
   m_configObjects: {}

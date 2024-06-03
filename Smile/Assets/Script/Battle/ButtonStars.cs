@@ -5,24 +5,62 @@ using UnityEngine.UI;
 
 public class ButtonStars : MonoBehaviour
 {
-    private Button _stars;
-    private LineMovement _lineMovement;
+    private static Button[] _stars = new Button[5];
     public static bool[] _check = new bool[5];
-    private static int _count;
+    public static bool[] _starsCheck = new bool[5];
     public static int buttonCount;
+    private static int _clickCount;
+    private static int _startCount;
+    private static int _endCount;
     private void Awake()
     {
-        _stars =GetComponent<Button>();
-        _stars.onClick.AddListener(() => ButtonCkeck((gameObject.name[5])));
+        _stars[gameObject.name[5] - 48] = GetComponent<Button>();
+        _stars[gameObject.name[5] - 48].onClick.AddListener(() => ButtonCkeck(gameObject.name[5],gameObject));
     }
-    public void ButtonCkeck(int i)
+    private void ButtonCkeck(int i,GameObject j)
     {
         i -= 48;
-        _check[i] = true;
-        ++_count;
-        if (_count == 1)
+        foreach (Button item in _stars)
+        {
+            item.interactable = true;
+        }
+        if (j.name == "Stars0")
+        {
+            _stars[4].interactable = false;
+        }
+        else if (j.name == "Stars1")
+        {
+            _stars[3].interactable = false;
+        }
+        else if (j.name == "Stars3")
+        {
+            _stars[1].interactable = false;
+            _stars[4].interactable = false;
+        }
+        else if (j.name == "Stars4")
+        {
+            _stars[0].interactable = false;
+            _stars[3].interactable = false;
+        }
+        if (_clickCount == 0)
+        {
+            _check[i] = true;
+            ++_clickCount;
             buttonCount = i;
-        else if(_count == 2)
-            _count = 0;
+        }
+        else if (_clickCount == 1)
+        {
+            _check[i] = true;
+            if (_startCount == 0)
+            {
+                _endCount = i;
+                _startCount = 1;
+            }
+            else if (_startCount >= 1)
+            {
+                buttonCount = _endCount;
+                _endCount = i;
+            }
+        }
     }
 }

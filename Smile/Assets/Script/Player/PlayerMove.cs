@@ -9,7 +9,6 @@ public class PlayerMove : MonoBehaviour
     private PlayerInput _playerInput;
     private PlayerAnimation _playerAnimation;
     [SerializeField] private int _Speed = 5;
-    public event Action _MoveScene;
     private Rigidbody2D _playerrigid;
     
     private void Awake()
@@ -24,7 +23,6 @@ public class PlayerMove : MonoBehaviour
         _playerInput.Move();
         _playerAnimation.MoveAni();
         _playerrigid.velocity = _playerInput._movedir.normalized * _Speed;
-        
     }    
 }
 

@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class PlayerPosition : MonoBehaviour
 {
-    [SerializeField]private bool _FirstFloor;
-    [SerializeField]private bool _SecondFloor;
-    [SerializeField]private bool _BedRoom;
+    private bool _FirstFloor;
+    private bool _SecondFloor;
+    private bool _BedRoom;
     private void Awake()
     {
         DontDestroyOnLoad(this);
@@ -34,7 +34,7 @@ public class PlayerPosition : MonoBehaviour
         }
         else if (_FirstFloor && _BedRoom && SceneManager.GetActiveScene().name == "FirstFloor")
         {
-            transform.position = new Vector3(0.8f, 1.5f);
+            transform.position = new Vector3(-2, 1.5f);
             _BedRoom = false;
         }
         else if (_FirstFloor && _BedRoom && SceneManager.GetActiveScene().name == "BedRoom")
@@ -74,6 +74,6 @@ public class PlayerPosition : MonoBehaviour
     private IEnumerator PlayerVectorTime()
     {
         yield return null;
-        transform.position = new Vector3(-4.5f, 1);
+        transform.position = new Vector3(0.2f, 0.5f);
     }
 }

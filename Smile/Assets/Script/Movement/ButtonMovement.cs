@@ -33,7 +33,7 @@ public class ButtonMovement : MonoBehaviour
     }
     public void PLAY()
     {
-        SceneManager.LoadScene("FirstFloor");
+        SceneManager.LoadScene("BedRoom");
         _playerPosition.PlayerVector();
         _playerPosition.SceneLocation();
 

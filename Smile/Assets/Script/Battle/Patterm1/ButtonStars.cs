@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ButtonStars : MonoBehaviour
 {
-    private static Button[] _stars = new Button[5];
+    public static Button[] _stars = new Button[5];
     public static bool[] _check = new bool[5];
     public static bool[] _starsCheck = new bool[5];
     public static int buttonCount;

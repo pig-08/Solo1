@@ -9,6 +9,8 @@ public class PlayerPosition : MonoBehaviour
     private bool _FirstFloor;
     private bool _SecondFloor;
     private bool _BedRoom;
+    private bool _BookRoom;
+    private bool _WashRoom;
     private void Awake()
     {
         DontDestroyOnLoad(this);
@@ -42,6 +44,26 @@ public class PlayerPosition : MonoBehaviour
             transform.position = new Vector3(-1, -2);
             _FirstFloor = false;
         }
+        else if (_SecondFloor && _BookRoom && SceneManager.GetActiveScene().name == "SecondFloor")
+        {
+            transform.position = new Vector3(-6, 1.3f);
+            _BookRoom = false;
+        }
+        else if (_SecondFloor && _BookRoom && SceneManager.GetActiveScene().name == "BookRoom")
+        {
+            transform.position = new Vector3(0, -2);
+            _SecondFloor = false;
+        }
+        else if (_SecondFloor && _WashRoom && SceneManager.GetActiveScene().name == "SecondFloor")
+        {
+            transform.position = new Vector3(15, 1.3f);
+            _WashRoom = false;
+        }
+        else if (_SecondFloor && _WashRoom && SceneManager.GetActiveScene().name == "WashRoom")
+        {
+            transform.position = new Vector3(3, -1.8f);
+            _SecondFloor = false;
+        }
     }
 
     public void SceneLocation()
@@ -53,17 +75,15 @@ public class PlayerPosition : MonoBehaviour
     {
         yield return null;
         if (SceneManager.GetActiveScene().name == "FirstFloor")
-        {
             _FirstFloor = true;
-        }
         else if (SceneManager.GetActiveScene().name == "SecondFloor")
-        {
             _SecondFloor = true;
-        }
         else if (SceneManager.GetActiveScene().name == "BedRoom")
-        {
             _BedRoom = true;
-        }
+        else if (SceneManager.GetActiveScene().name == "BookRoom")
+            _BookRoom = true;
+        else if(SceneManager.GetActiveScene().name == "WashRoom")
+            _WashRoom = true;
     }
 
     public void PlayerVector()

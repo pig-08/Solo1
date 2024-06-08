@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 945c6a561153e2647a35a519e2df617d
+guid: aa962d70ef4274646a9d40d3240761ab
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,11 +136,32 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tiles (floor and walls)_0
+      name: TopDownHouse_FloorsAndWalls (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb5f65ccd8d9ac4a96d41afb931f140
+      internalID: -559163931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_1
       rect:
         serializedVersion: 2
         x: 16
-        y: 192
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -150,18 +171,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8331ae01e6dee2c41b056acb3315cd88
-      internalID: -669192464
+      spriteID: a29e18616ddf86049a572301c6f8c585
+      internalID: 2053318277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_1
+      name: TopDownHouse_FloorsAndWalls (1)_2
       rect:
         serializedVersion: 2
         x: 32
-        y: 192
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -171,18 +192,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51b202e2dbee2024e995612a817b5f4c
-      internalID: -260721630
+      spriteID: ec4575cbf069e554e9eaddd7d6714583
+      internalID: -261176814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_2
+      name: TopDownHouse_FloorsAndWalls (1)_3
       rect:
         serializedVersion: 2
         x: 48
-        y: 192
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -192,18 +213,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64bc20ac2ab30064b91f0c5ebbb68573
-      internalID: 2116999232
+      spriteID: 6268ceb5a170cb847a966a90e6d81de5
+      internalID: 2014215945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_3
+      name: TopDownHouse_FloorsAndWalls (1)_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84ef00314fc2134b8c3e9818eb38169
+      internalID: 391008488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_5
       rect:
         serializedVersion: 2
         x: 80
-        y: 192
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -213,18 +255,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de0b3a2066ed1944bbc484c836fb963a
-      internalID: 618496859
+      spriteID: be8563c7ad00d6d4ba586b73e6ca1751
+      internalID: 213389628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_4
+      name: TopDownHouse_FloorsAndWalls (1)_6
       rect:
         serializedVersion: 2
         x: 96
-        y: 192
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -234,18 +276,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b72938cc3998ce49883a2b927d96f1a
-      internalID: -551499794
+      spriteID: 5aa0e5fe047ee75448d60c6580f36580
+      internalID: 1660436125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_5
+      name: TopDownHouse_FloorsAndWalls (1)_7
       rect:
         serializedVersion: 2
         x: 112
-        y: 192
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -255,18 +297,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2bdeb8aa220f354bb460a956316b06d
-      internalID: 380674049
+      spriteID: 37f1805964cb28f479c7be86771aee5d
+      internalID: 825426229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_6
+      name: TopDownHouse_FloorsAndWalls (1)_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03743e3978235949b433395003f1d4d
+      internalID: 1127391694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_9
       rect:
         serializedVersion: 2
         x: 144
-        y: 192
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -276,18 +339,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8a28147a5846ba449b9d76fbcc0848c
-      internalID: -1321807542
+      spriteID: 208f4d6e760285c42ac7b4ab4a272627
+      internalID: 1724332059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_7
+      name: TopDownHouse_FloorsAndWalls (1)_10
       rect:
         serializedVersion: 2
         x: 160
-        y: 192
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -297,18 +360,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15b4ea8463a8c924e924769b6433fb1c
-      internalID: -80195525
+      spriteID: 8e1d1b3e66d314045a737efa3ef726f2
+      internalID: -1732424524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_8
+      name: TopDownHouse_FloorsAndWalls (1)_11
       rect:
         serializedVersion: 2
         x: 176
-        y: 192
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -318,18 +381,81 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0828f89340b83554f8554b6da8109153
-      internalID: 2107437301
+      spriteID: 0dbb1e68361bc084799d3b6bcc938324
+      internalID: -1075734132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_9
+      name: TopDownHouse_FloorsAndWalls (1)_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19d660bd3a8613459e67b4196befb9c
+      internalID: -1137872383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09dc433f6dff4f4984ac55bc0b3a745
+      internalID: -1175984681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29a7a4c39502fb4499b144597a770c2
+      internalID: -2078778963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_15
       rect:
         serializedVersion: 2
         x: 240
-        y: 192
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -339,18 +465,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51d60e85ff3b36a4ab37d721c454cb92
-      internalID: 15712880
+      spriteID: a3d322eb16e0b05418df96b3d1d9a3d3
+      internalID: -1064272413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_10
+      name: TopDownHouse_FloorsAndWalls (1)_16
       rect:
         serializedVersion: 2
         x: 256
-        y: 192
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -360,18 +486,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02e5c0fec802fad45ba412b066baff47
-      internalID: 982408723
+      spriteID: 460efffd19bc1934581d0f2ed958410a
+      internalID: 85809001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_11
+      name: TopDownHouse_FloorsAndWalls (1)_17
       rect:
         serializedVersion: 2
         x: 272
-        y: 192
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -381,18 +507,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66c78829a557f41488cc86d94e066d3a
-      internalID: 1103022488
+      spriteID: 5b9a834500c89a24d90811d0ada1d7a3
+      internalID: 1556419770
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_12
+      name: TopDownHouse_FloorsAndWalls (1)_18
       rect:
         serializedVersion: 2
-        x: 304
-        y: 192
+        x: 0
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -402,207 +528,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 766959a2e0f814a4fa6249b9c090b0aa
-      internalID: 160263050
+      spriteID: f645fd4db639b5344a085de27834a617
+      internalID: 769872667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_13
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2e2f92d8f5a3eb4abbbc15b3868d57f
-      internalID: -290760930
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_14
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1270934031d9e33498b48424365be7af
-      internalID: -219623936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_15
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 31275293f02e4474aba5169370dcfc16
-      internalID: 373548349
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_16
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a4c0459d6c2865448734a82744d72dc
-      internalID: 642058240
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_17
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f5cd6e97821cad145befaca7f0e31e2f
-      internalID: 1402478477
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_18
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38311de961f0d5a49bfce0445e01d062
-      internalID: 1038301329
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_19
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: de98230b6db0a6d4d96b5db231e0b7ca
-      internalID: 293581157
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_20
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3571724ae60cb624ba295811da8702af
-      internalID: -592811781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_21
-      rect:
-        serializedVersion: 2
-        x: 496
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f43cf733d032ee40ab6db93198d4c25
-      internalID: -1672633835
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_22
+      name: TopDownHouse_FloorsAndWalls (1)_19
       rect:
         serializedVersion: 2
         x: 16
-        y: 176
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -612,18 +549,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d1eaed48d7232947bf58c3152e40d8d
-      internalID: -433013997
+      spriteID: 2a5faa5c860b17e4e90b090204354f49
+      internalID: 559883620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_23
+      name: TopDownHouse_FloorsAndWalls (1)_20
       rect:
         serializedVersion: 2
         x: 32
-        y: 176
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -633,18 +570,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 269e376f3bc45ca41a2415b590180080
-      internalID: 1561369997
+      spriteID: 104644d256715d444be9df6f1aaebe0d
+      internalID: -881575443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_24
+      name: TopDownHouse_FloorsAndWalls (1)_21
       rect:
         serializedVersion: 2
         x: 48
-        y: 176
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -654,669 +591,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 106519026f5697446b7a8763fa21b8d7
-      internalID: -1602508198
+      spriteID: 51692b6445a3d8940b66ccf21e4b6785
+      internalID: -1441675748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_25
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b8baf608354d5f842a9f7966f412b02e
-      internalID: -753661063
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_26
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0dba666e352aa14fa27d2af0e2216ea
-      internalID: -24229893
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_27
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac5bc464a4985c247bf252a0c8a09a6a
-      internalID: -624300193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_28
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e4d3662b0e25f4f45a181b449bf8d011
-      internalID: -1532590522
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_29
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2cfd226b77fb96b43850dbdc11428ba6
-      internalID: 1951025747
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_30
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9e9230541b6270347bfc375212e265ed
-      internalID: -333841818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_31
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 182e77ed213c4a340a2a4d337024086a
-      internalID: -975574384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_32
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b0b0ccc2824a104429dd6c8baa3bf1bd
-      internalID: -1553825281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_33
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8ba06be8c720a1542a6fe0dcebcd4008
-      internalID: 1574344768
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_34
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 861da1f1347af654994c17e344e2781f
-      internalID: -292946726
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_35
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73172b5bd1880df46bc9da0934550f49
-      internalID: -1267342453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_36
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 76d427ce454bd9048901a4584babebb6
-      internalID: 1060424651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_37
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1eccb1472b77c0a47a4a3c51a40c07b9
-      internalID: 1619641390
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_38
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46ca372c4a12e3648bf9949ace5a5081
-      internalID: 1236265284
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_39
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 003dd846fb21da14b83a3160f8fe6ab2
-      internalID: 1585762519
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_40
-      rect:
-        serializedVersion: 2
-        x: 496
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9efd525315fe8934da636f4bcab49e8d
-      internalID: -1200375831
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_41
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d0b355f9b68e5541a3bf7305516a72d
-      internalID: 1161997694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_42
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ff08a1abbd02144591d5b34837a8a05
-      internalID: 1487504310
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_43
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 358a4bd104fd2de49b95b1a8488eb650
-      internalID: -1512094834
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_44
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c536f0d3611609c4da865f011e722322
-      internalID: -1826229710
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_45
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7fd414c3802243045ad192757f6fee0d
-      internalID: -1794190099
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_46
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9cd4b9d570c480145a1fdeee890dd0ba
-      internalID: -758305541
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_47
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fa4d58e5d9357e74e9db55e075c36e12
-      internalID: 657318479
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_48
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b8ad09e5da82014db75b76a812d6a04
-      internalID: -1692452339
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_49
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df4133da9b70a7049b5a429b154781ba
-      internalID: -117135404
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_50
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 610241d71deb0744caaf56ef6c2f127b
-      internalID: 1335191717
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_51
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7104bbe4b10acbe44aa8da769f79e2b7
-      internalID: -1683075907
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_52
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f08d8e6b80175ef4ca43b70d29945147
-      internalID: 2087010197
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_53
-      rect:
-        serializedVersion: 2
-        x: 496
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 854e8085f289cfd44984b601b6cd54f1
-      internalID: -950775144
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_54
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f51cc7f3a36864c4b972b7e6f3229c52
-      internalID: 991338953
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_55
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88733d8dba08f0843b4ac015dc1add24
-      internalID: -1096067191
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_56
+      name: TopDownHouse_FloorsAndWalls (1)_22
       rect:
         serializedVersion: 2
         x: 64
-        y: 144
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -1326,18 +612,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd7a4464158536b46b5d34680352ee9c
-      internalID: 1391467862
+      spriteID: b88be213f9d348c4ba86f578a54771b8
+      internalID: -1089776411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_57
+      name: TopDownHouse_FloorsAndWalls (1)_23
       rect:
         serializedVersion: 2
         x: 80
-        y: 144
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -1347,18 +633,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45752c73d7182104b8496462a83cb4a9
-      internalID: -1894124900
+      spriteID: 0fdd6d0755532e5469cabd63e7d718c2
+      internalID: -1060827083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_58
+      name: TopDownHouse_FloorsAndWalls (1)_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd0df477fd51dd4d8fae119b6201841
+      internalID: -1659429048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_25
       rect:
         serializedVersion: 2
         x: 112
-        y: 144
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -1368,18 +675,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13ace61f814afd840a1b8e981edc6175
-      internalID: -1507905300
+      spriteID: b3a1f209c442da04ba4f8d6a13c02097
+      internalID: 1696571325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_59
+      name: TopDownHouse_FloorsAndWalls (1)_26
       rect:
         serializedVersion: 2
         x: 128
-        y: 144
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -1389,18 +696,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e660666ee1ae18c48bbb84e6dad292c9
-      internalID: 1675393725
+      spriteID: 6219b0565518ea64986fe1ed14d846a5
+      internalID: 1082812095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_60
+      name: TopDownHouse_FloorsAndWalls (1)_27
       rect:
         serializedVersion: 2
         x: 144
-        y: 144
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -1410,18 +717,123 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d24eb1f13864ff4a8cd8c976ef205e5
-      internalID: 792749725
+      spriteID: 3f918d0b87f340a4e961da19eb147413
+      internalID: 731085543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_61
+      name: TopDownHouse_FloorsAndWalls (1)_28
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403a4e101c708074d8c045cae061f669
+      internalID: 1827547970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_29
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6abd14eabd3fd40bae205d78ec844f
+      internalID: 758248274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3908e87ddb1e3546b4435896e212cbc
+      internalID: -1225346871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_31
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8500a6c154a381b489ca5c7df7dcbf88
+      internalID: -961726222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_32
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a01d94bc392dc549aec40d617ec4d6c
+      internalID: -1985625616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_33
       rect:
         serializedVersion: 2
         x: 240
-        y: 144
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -1431,18 +843,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd2603b9afb9f6a4880f32172eb9b3e8
-      internalID: 1323358839
+      spriteID: 7266c9af779e50241af38c68eace2fa0
+      internalID: -463126473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_62
+      name: TopDownHouse_FloorsAndWalls (1)_34
       rect:
         serializedVersion: 2
         x: 256
-        y: 144
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -1452,18 +864,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2dc1125325511b74988adca8a3cbeade
-      internalID: -1662199193
+      spriteID: ecbb51349ec1591439eb486dc667ac2a
+      internalID: -1475755924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_63
+      name: TopDownHouse_FloorsAndWalls (1)_35
       rect:
         serializedVersion: 2
         x: 272
-        y: 144
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -1473,18 +885,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03ecf7ce9884c6b43a0fdedffbb14fb9
-      internalID: -259081615
+      spriteID: 22d8bac47f124124d9cd52a04cb89fe8
+      internalID: 1713407648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_64
+      name: TopDownHouse_FloorsAndWalls (1)_36
       rect:
         serializedVersion: 2
-        x: 304
-        y: 144
+        x: 0
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -1494,165 +906,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 405dc2f0b1f9fec4aa19914258529628
-      internalID: 724466608
+      spriteID: 46ed50016206ec34698bf83bdf924d1e
+      internalID: -96564079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_65
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0eaad48619d2f82489ae2ccd130bedcd
-      internalID: 1390701648
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_66
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6a524bc502e5e6498d46fa17073903a
-      internalID: 21354555
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_67
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89871f57c8434d946b931e57279a456a
-      internalID: 1602223256
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_68
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f611e85468d1b6b41b47d60b13db9443
-      internalID: 1508227617
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_69
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e4f444b5a0e4d9a469ed39fbe5f722bc
-      internalID: 583114700
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_70
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1718c70efe9e56c419b258aa6086ac3a
-      internalID: -72115079
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_71
-      rect:
-        serializedVersion: 2
-        x: 496
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d8512e9d54645b4b82f1afe50487e08
-      internalID: -651225036
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_72
+      name: TopDownHouse_FloorsAndWalls (1)_37
       rect:
         serializedVersion: 2
         x: 16
-        y: 128
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -1662,518 +927,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19152680b702f904f85e4e69633c6fb9
-      internalID: 882240731
+      spriteID: 1d5c55dbe5fc37e4099fbf3b7e78e89f
+      internalID: 1711476588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_73
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 992392f091cbfdd4a8c59c071ea66582
-      internalID: 291613967
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_74
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf9c3c3b815a31744b00e217139956f0
-      internalID: 673528449
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_75
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a968d5589ecf194091e41829b338b59
-      internalID: 580085010
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_76
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dd4cfa742ec507d4787e69599f2fc052
-      internalID: -1592117951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_77
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bfdf1298333e1e042b5a6833de3f334a
-      internalID: 1076563643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_78
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe8da88e430547a4bbd4e7b4c471a14e
-      internalID: 193309468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_79
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a9457beba4b47fd469220d678347970d
-      internalID: -467131026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_80
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 654c952a928f8214695623dce453d9c3
-      internalID: -1991083593
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_81
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 61c4c7acc82667040ac44590bcd6806d
-      internalID: -1961378167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_82
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f766a621e88909141a1bfd83a7c239a5
-      internalID: 295045218
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_83
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b62f5cd7c5da78b4e8ebf5b22728f612
-      internalID: 2120925623
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_84
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b8347e52863f4bd46a97428baead9f25
-      internalID: 1125116819
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_85
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3a76a1fdffd0fe4b91ed9dc8e7a9ed1
-      internalID: 501808609
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_86
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83c0e1c7a75bb3f43b8eb98d754fa53f
-      internalID: 2022264354
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_87
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9fd88d30d58d9a141a1e3a61f5fc31ee
-      internalID: -1065877062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_88
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 74ad98d09a5ac8b488346b010aaf088f
-      internalID: 1804041530
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_89
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d56b7778cd8fb446b0e9e6a6fdf551d
-      internalID: 1990753016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_90
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3eba16d2d433c97448419ecc1ec5b910
-      internalID: -1783557521
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_91
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac35e99d7f84cb94099e1c061044b3ad
-      internalID: -593347540
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_92
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a668db5cfcc0f1248969e53028e8ecf3
-      internalID: -1241491809
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_93
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 12bee338fe71c1c4ca2a632ecf367fec
-      internalID: 496880130
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_94
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 409b66189b9ee2744b764f90a0c20dfb
-      internalID: -301395981
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_95
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 22662d23b641e1c449222cb0a44a35ce
-      internalID: 34213951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_96
-      rect:
-        serializedVersion: 2
-        x: 496
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c0bca7f040f7d02439aa6fad10178ed2
-      internalID: 402198702
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_97
+      name: TopDownHouse_FloorsAndWalls (1)_38
       rect:
         serializedVersion: 2
         x: 32
@@ -2187,14 +948,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8861b76686c1e704485d743475c56a29
-      internalID: -451416733
+      spriteID: 62b4ff34f1716d040bf3713973e78a20
+      internalID: 1616246302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_98
+      name: TopDownHouse_FloorsAndWalls (1)_39
       rect:
         serializedVersion: 2
         x: 48
@@ -2208,14 +969,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0027f2479e76624d826a3c27a07d658
-      internalID: -1613911929
+      spriteID: 7fafafa73f6b5c84f91632eed35e56f2
+      internalID: 213293542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_99
+      name: TopDownHouse_FloorsAndWalls (1)_40
       rect:
         serializedVersion: 2
         x: 64
@@ -2229,14 +990,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5941d665c0f7411488bb7d03c788a55f
-      internalID: 749024833
+      spriteID: 09ee9967b32b1bf44b9ce362609319dc
+      internalID: -787956967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_100
+      name: TopDownHouse_FloorsAndWalls (1)_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed30a9e9bf9c8d4cb9044ea78e2be79
+      internalID: 704965555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_42
       rect:
         serializedVersion: 2
         x: 96
@@ -2250,14 +1032,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14545ebe9e1f2bc4685c9f0c38ccde3d
-      internalID: -1595922007
+      spriteID: d936932a750b3a74096eeda5a3e1a8bc
+      internalID: 94783540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_101
+      name: TopDownHouse_FloorsAndWalls (1)_43
       rect:
         serializedVersion: 2
         x: 112
@@ -2271,14 +1053,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3398064e81b8c84eba050b868df333c
-      internalID: -1620779779
+      spriteID: 2b73848c153133048af48e258ddfd467
+      internalID: 759886867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_102
+      name: TopDownHouse_FloorsAndWalls (1)_44
       rect:
         serializedVersion: 2
         x: 128
@@ -2292,14 +1074,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 426ca898e50422747aa0379bea173b4d
-      internalID: 1829177679
+      spriteID: da26085dbed08ac479ca779b7615fabe
+      internalID: -818599122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_103
+      name: TopDownHouse_FloorsAndWalls (1)_45
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d850f2c0307e0e43932d0046934d838
+      internalID: -1185315266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_46
       rect:
         serializedVersion: 2
         x: 160
@@ -2313,14 +1116,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: faa040b65d060b348878e53d3ffd5aab
-      internalID: -1785399859
+      spriteID: 7d3ee65ec4d73e64886fb08bfbd6323a
+      internalID: 398892648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_104
+      name: TopDownHouse_FloorsAndWalls (1)_47
       rect:
         serializedVersion: 2
         x: 176
@@ -2334,14 +1137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b21ac7445c736d49aa82c12ace769cb
-      internalID: 2143602466
+      spriteID: 587b1ed443c8e2049981d05a2ae06c72
+      internalID: 1287005034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_105
+      name: TopDownHouse_FloorsAndWalls (1)_48
       rect:
         serializedVersion: 2
         x: 192
@@ -2355,14 +1158,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cf9766027a7f61498313c8e64aea39a
-      internalID: -661118367
+      spriteID: c17161c6f9fe95046ae39b07238b3ec6
+      internalID: 1921715727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_106
+      name: TopDownHouse_FloorsAndWalls (1)_49
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6017aff20e7a67441b8f0ebdaddd8810
+      internalID: 860054625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_50
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8265d370614703646bf31e08d7857ff0
+      internalID: -1676368115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_51
       rect:
         serializedVersion: 2
         x: 240
@@ -2376,14 +1221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5367357a3afe9cb4d9d6bb4b38ecb747
-      internalID: 1110792584
+      spriteID: 687cb15f3b4e67142afef534f8a80f79
+      internalID: -1452639184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_107
+      name: TopDownHouse_FloorsAndWalls (1)_52
       rect:
         serializedVersion: 2
         x: 256
@@ -2397,14 +1242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e79ee775e57b544b9441a0d77e2d73b
-      internalID: -1805081448
+      spriteID: 27e9c8c4c0e5cd645a3277abae320409
+      internalID: 494805701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_108
+      name: TopDownHouse_FloorsAndWalls (1)_53
       rect:
         serializedVersion: 2
         x: 272
@@ -2418,18 +1263,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 106350743f734e64fad5c54fd043238a
-      internalID: -1495039560
+      spriteID: 6b9cac1e232dee14abb8996a44ac0724
+      internalID: -1380028246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_109
+      name: TopDownHouse_FloorsAndWalls (1)_54
       rect:
         serializedVersion: 2
-        x: 304
-        y: 96
+        x: 0
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -2439,182 +1284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71ffcc2a98913ab418c36849d77ee942
-      internalID: -331821822
+      spriteID: 83e57651f23430e4fb705a05bf8bb33c
+      internalID: -1793732385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_110
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8c2a38bdf6968049b5ee67390040def
-      internalID: 1270170778
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_111
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0da748990c02fa4408f8f87d650e9ba7
-      internalID: 1797685766
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_112
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd98811f3257d6744b7d85217ec53cc0
-      internalID: 670144831
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_113
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 362249421c2b06341a284d4b57594d65
-      internalID: 1992651414
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_114
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3faa9504947f80e46ad37a71ebe58d75
-      internalID: -2064285282
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_115
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6160238a573b8054baec5c016ce1652d
-      internalID: -1070965326
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_116
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f429b27a0273cf849bff31cd0a6bb14c
-      internalID: -1886606906
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_117
-      rect:
-        serializedVersion: 2
-        x: 496
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d8227e85bea4d2f48a970419a2011dae
-      internalID: 1387911264
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_118
+      name: TopDownHouse_FloorsAndWalls (1)_55
       rect:
         serializedVersion: 2
         x: 16
@@ -2628,14 +1305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0387f4c7d1091345b23798661151b5d
-      internalID: 1754784929
+      spriteID: 16df6c9fa064f524ca234427f2a5cef2
+      internalID: 45001604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_119
+      name: TopDownHouse_FloorsAndWalls (1)_56
       rect:
         serializedVersion: 2
         x: 32
@@ -2649,14 +1326,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9df5136bffbfc0b4ba561a3d9b701ec4
-      internalID: 732101372
+      spriteID: 6eb3b226101c7814b9359971620134a6
+      internalID: -1420082498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_120
+      name: TopDownHouse_FloorsAndWalls (1)_57
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53deb6768b27fa94fb9ad50baea8816b
+      internalID: -1334643800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_58
       rect:
         serializedVersion: 2
         x: 64
@@ -2670,14 +1368,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 252518a5da1c60d4d9d1bb59df67d33c
-      internalID: -148434445
+      spriteID: e52efaa2628bfa9408243036468ef127
+      internalID: -597581052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_121
+      name: TopDownHouse_FloorsAndWalls (1)_59
       rect:
         serializedVersion: 2
         x: 80
@@ -2691,14 +1389,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec7928982733cd249b112a81dc9a72c4
-      internalID: 1221952868
+      spriteID: 8a0ee8bc57e71e24aab33c58bc30cbfd
+      internalID: 234448412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_122
+      name: TopDownHouse_FloorsAndWalls (1)_60
       rect:
         serializedVersion: 2
         x: 96
@@ -2712,14 +1410,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1886ca3e5fe715e4c901848e6ec2462c
-      internalID: 1885370578
+      spriteID: df48a79ef131951409a73757a07fb0f9
+      internalID: 887138444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_123
+      name: TopDownHouse_FloorsAndWalls (1)_61
       rect:
         serializedVersion: 2
         x: 112
@@ -2733,14 +1431,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0dd032511840ea04ead0f8c07c26ce1b
-      internalID: -1340306928
+      spriteID: 760781e44f1fdea4ba8eb3915c618c57
+      internalID: 647459021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_124
+      name: TopDownHouse_FloorsAndWalls (1)_62
       rect:
         serializedVersion: 2
         x: 128
@@ -2754,14 +1452,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 767921023a9d2174482c4423d1beaa49
-      internalID: 2015298193
+      spriteID: e470739a89d62d94185dc5d1aeb93fed
+      internalID: -1168343231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_125
+      name: TopDownHouse_FloorsAndWalls (1)_63
       rect:
         serializedVersion: 2
         x: 144
@@ -2775,14 +1473,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe76940a89cd6974e89a615a59523f74
-      internalID: 1942017832
+      spriteID: 7fbf285c972ba4b4894027c66100fc55
+      internalID: -679205060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_126
+      name: TopDownHouse_FloorsAndWalls (1)_64
       rect:
         serializedVersion: 2
         x: 160
@@ -2796,14 +1494,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 530a5e3adffbf49409a4b07feb313a70
-      internalID: 1944603874
+      spriteID: 96640573f4114244a888ab945842fc1e
+      internalID: -2050728963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_127
+      name: TopDownHouse_FloorsAndWalls (1)_65
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b8159febc53664aa3b8ef2033ccd0a
+      internalID: -285057146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_66
       rect:
         serializedVersion: 2
         x: 192
@@ -2817,14 +1536,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86a5a34192595544e8ce0bd8838f4f14
-      internalID: 2063781951
+      spriteID: d523fcaa00f756041b5707ca78eb2d83
+      internalID: 1469635139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_128
+      name: TopDownHouse_FloorsAndWalls (1)_67
       rect:
         serializedVersion: 2
         x: 208
@@ -2838,14 +1557,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86fabd4183da9cf428743bf09f6b83ec
-      internalID: 487667827
+      spriteID: 34017979de043434899dee043ed55c1c
+      internalID: -1769712975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_129
+      name: TopDownHouse_FloorsAndWalls (1)_68
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9efcdf49d5464a499a90eb39737ec56
+      internalID: 374416742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_69
       rect:
         serializedVersion: 2
         x: 240
@@ -2859,14 +1599,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4d6fde0f99c88347a4210d6261d3b4f
-      internalID: 250036199
+      spriteID: c5a764ef8c7e1814f9ba831177b1aaea
+      internalID: 1475013624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_130
+      name: TopDownHouse_FloorsAndWalls (1)_70
       rect:
         serializedVersion: 2
         x: 256
@@ -2880,14 +1620,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 834c665dfd4ffc149b57c0a1cb0e7349
-      internalID: -1924990906
+      spriteID: 8b93ea884b026984c9b357607161f8ac
+      internalID: -2013686025
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_131
+      name: TopDownHouse_FloorsAndWalls (1)_71
       rect:
         serializedVersion: 2
         x: 272
@@ -2901,18 +1641,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bf0c1499a46c3640857e71ad343ef2c
-      internalID: -1163669742
+      spriteID: 116a3b1bd64fe6e47af28de8b0592594
+      internalID: 60598112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_132
+      name: TopDownHouse_FloorsAndWalls (1)_72
       rect:
         serializedVersion: 2
-        x: 304
-        y: 80
+        x: 0
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -2922,119 +1662,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58f3175f8796ca646886e37840304b85
-      internalID: 1384778499
+      spriteID: 82f69889d07672b4e9cbaedac11cb229
+      internalID: 178858319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_133
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a9e8b094122ecb40bb0281305c747e4
-      internalID: 163977162
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_134
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57dada5b430d6444b848c6d328241a3a
-      internalID: 867472768
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_135
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2f419180ac761e4d91a720001553e5c
-      internalID: -1243316296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_136
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4bdfa24b0f88fd45a0caceccff09111
-      internalID: -296242038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_137
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd10ea920fa65be408488b4c60f2a560
-      internalID: 178729409
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_138
+      name: TopDownHouse_FloorsAndWalls (1)_73
       rect:
         serializedVersion: 2
         x: 16
@@ -3048,14 +1683,77 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05ecc3c68cd15504faf8f114e0ca54e2
-      internalID: -1959509787
+      spriteID: acbd9db824897a1418b5ee925a1b947c
+      internalID: -2031348056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_139
+      name: TopDownHouse_FloorsAndWalls (1)_74
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36cbbc38fd39fcf4d954f4b46f47f8f5
+      internalID: 1076821719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_75
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcced7bf91fcf5e40a7be38e912469c3
+      internalID: -1123501485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_76
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e468530502cbd46a727b5479793b4a
+      internalID: -423720094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_77
       rect:
         serializedVersion: 2
         x: 80
@@ -3069,14 +1767,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 996961719f2f7e74b81dde0d21aaa854
-      internalID: 1198089673
+      spriteID: bf268c3816758b74a8ee7851fedf63f4
+      internalID: -1661207245
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_140
+      name: TopDownHouse_FloorsAndWalls (1)_78
       rect:
         serializedVersion: 2
         x: 96
@@ -3090,14 +1788,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f74cc547499215a46841c4bf2010593c
-      internalID: -247814245
+      spriteID: 2bc1f8aa4cecd8f4e80d58e0ea6011ad
+      internalID: 523282230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_141
+      name: TopDownHouse_FloorsAndWalls (1)_79
       rect:
         serializedVersion: 2
         x: 112
@@ -3111,14 +1809,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5172e435577c92749995fd676f14c0ae
-      internalID: -1837229601
+      spriteID: e330674225b5aae468b1e5b035f8f051
+      internalID: -1257012055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_142
+      name: TopDownHouse_FloorsAndWalls (1)_80
       rect:
         serializedVersion: 2
         x: 128
@@ -3132,14 +1830,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0afdb9c69f4295438a362a760cf8121
-      internalID: 1472727133
+      spriteID: e6a1d9880b0974a4281c7c882476af44
+      internalID: 1641633086
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_143
+      name: TopDownHouse_FloorsAndWalls (1)_81
       rect:
         serializedVersion: 2
         x: 144
@@ -3153,14 +1851,77 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42beb6223e9cd934cb43cc6dfa507ad8
-      internalID: -1143841116
+      spriteID: 812ccb653a9b4654f8c1b5e489307cce
+      internalID: 1068777224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_144
+      name: TopDownHouse_FloorsAndWalls (1)_82
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e936347ae5994114f82a1652e59e127c
+      internalID: -1132304555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_83
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d736a40bb905bac4a917aa83d4198ec3
+      internalID: -1095934579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_84
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83566aeb10f78d740907c0ceeda90220
+      internalID: 1880707663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_85
       rect:
         serializedVersion: 2
         x: 208
@@ -3174,14 +1935,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb053c20e61e3e946a188221552c29d2
-      internalID: -911820310
+      spriteID: b4828b52e0878924ca6bbb201a318c07
+      internalID: 585826252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_145
+      name: TopDownHouse_FloorsAndWalls (1)_86
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d2da30b78015244b504235a195fbc7
+      internalID: 1368277282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_87
       rect:
         serializedVersion: 2
         x: 240
@@ -3195,14 +1977,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0349fd2ffa5a3964d8674f3a8ae24bb1
-      internalID: -1708222098
+      spriteID: ddc569308a0001d449d72c4375182200
+      internalID: 902032866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_146
+      name: TopDownHouse_FloorsAndWalls (1)_88
       rect:
         serializedVersion: 2
         x: 256
@@ -3216,14 +1998,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4f1054e74a330342859d45619f1bf99
-      internalID: -720345560
+      spriteID: b56a75e07ad4c99489f0c4355fd1fe74
+      internalID: 1496412213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_147
+      name: TopDownHouse_FloorsAndWalls (1)_89
       rect:
         serializedVersion: 2
         x: 272
@@ -3237,18 +2019,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64637b56b6826424a8712e87b9956f6f
-      internalID: 1491219124
+      spriteID: 7663d586052a5424fae8d36ea5b31ea2
+      internalID: 1561525658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_148
+      name: TopDownHouse_FloorsAndWalls (1)_90
       rect:
         serializedVersion: 2
-        x: 304
-        y: 64
+        x: 0
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -3258,182 +2040,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ac874d0898fa714e8e92b7b213269c9
-      internalID: -730199519
+      spriteID: 69318bf9bf6c65d43bb7cce60f264775
+      internalID: -774926566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_149
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac54759a20f1dcc41a550380618204f3
-      internalID: -668921349
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_150
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2961fadca9084b7469a7c27fe03f5425
-      internalID: -1829518240
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_151
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf6f7ed924036ea4e875ecf5c7d2111c
-      internalID: -1222744937
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_152
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a667c86aa87a2342bd4452c082ad9f3
-      internalID: -1136097921
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_153
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 49fe2e7c94c9bbb4ba7870d4f083b573
-      internalID: 142822485
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_154
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87452ad6d6e07654d94df29bea0469f3
-      internalID: -2083575214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_155
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 269b63abd2bc6804a837cfc137f5ffc7
-      internalID: 379065502
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_156
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7e517935b7d8a2240b612f78ab1f7a3c
-      internalID: 573991562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_157
+      name: TopDownHouse_FloorsAndWalls (1)_91
       rect:
         serializedVersion: 2
         x: 16
@@ -3447,14 +2061,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aec9cac6f973c1342bc337d29ef894e9
-      internalID: -1793327098
+      spriteID: 4d1aefee4bf1e214886a0759ca8a3e51
+      internalID: 754926452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_158
+      name: TopDownHouse_FloorsAndWalls (1)_92
       rect:
         serializedVersion: 2
         x: 32
@@ -3468,14 +2082,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc46edfa15c07fe4c86c9930ac717f9e
-      internalID: -822719324
+      spriteID: 3028c74cf48d8014a817eeb9f067b775
+      internalID: 47082581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_159
+      name: TopDownHouse_FloorsAndWalls (1)_93
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6575d1c8cc48c94f94e18cd942c0c85
+      internalID: -20670794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_94
       rect:
         serializedVersion: 2
         x: 64
@@ -3489,14 +2124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b40a171f2ec93934780aef984b8e4088
-      internalID: -1651512382
+      spriteID: 6ad31971df62a774182160092ce4f2e6
+      internalID: -1110851268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_160
+      name: TopDownHouse_FloorsAndWalls (1)_95
       rect:
         serializedVersion: 2
         x: 80
@@ -3510,14 +2145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bff341c8d61a38459e94c1067d9a7fe
-      internalID: -580120342
+      spriteID: 79a72672174ac2c4f8de5fefbfb5f762
+      internalID: 992393474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_161
+      name: TopDownHouse_FloorsAndWalls (1)_96
       rect:
         serializedVersion: 2
         x: 96
@@ -3531,14 +2166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d6bdbd6df9fd744cb2dacf39ec4185c
-      internalID: 1886073285
+      spriteID: 7543a819e3198e943b0b3fdc3a874843
+      internalID: 1227160537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_162
+      name: TopDownHouse_FloorsAndWalls (1)_97
       rect:
         serializedVersion: 2
         x: 112
@@ -3552,14 +2187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f752bd84d85282c42b2b119dd7973d59
-      internalID: -977273671
+      spriteID: 84d236b1d38a20d4c9c703c78e0090be
+      internalID: 379922753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_163
+      name: TopDownHouse_FloorsAndWalls (1)_98
       rect:
         serializedVersion: 2
         x: 128
@@ -3573,14 +2208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58fc04bfb1f55d04daeb19377e8687f1
-      internalID: 658127956
+      spriteID: bd3ac3647fe120c47a11197b4a7fad96
+      internalID: -2105634553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_164
+      name: TopDownHouse_FloorsAndWalls (1)_99
       rect:
         serializedVersion: 2
         x: 144
@@ -3594,14 +2229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57822d116ee1e184e9689915f7f1ddcc
-      internalID: -1760723762
+      spriteID: 0b066f89cf568e94d945a4a1ce1d873b
+      internalID: -1672716959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_165
+      name: TopDownHouse_FloorsAndWalls (1)_100
       rect:
         serializedVersion: 2
         x: 160
@@ -3615,14 +2250,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 812877064edd05c4596f263e1ceaed4b
-      internalID: -2141344476
+      spriteID: c4fc8d9ac1effb643b36e3be55c4e4d8
+      internalID: 1212709378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_166
+      name: TopDownHouse_FloorsAndWalls (1)_101
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bd6742691b74a4089e696c6149bace
+      internalID: -1125771284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_102
       rect:
         serializedVersion: 2
         x: 192
@@ -3636,14 +2292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9e381e4b48958947bd32580c13da9ed
-      internalID: -1123693478
+      spriteID: 56312f1ace849c14f9c3144d0b7fa9a2
+      internalID: 1750264014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_167
+      name: TopDownHouse_FloorsAndWalls (1)_103
       rect:
         serializedVersion: 2
         x: 208
@@ -3657,14 +2313,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9743723adfa06e4e997b781cf451cb7
-      internalID: -1719972103
+      spriteID: 25d38cb39d10b584bad6d3f5bedfefa9
+      internalID: -89182809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_168
+      name: TopDownHouse_FloorsAndWalls (1)_104
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffaeeee016585564885945b53d476adb
+      internalID: -1104944855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_105
       rect:
         serializedVersion: 2
         x: 240
@@ -3678,14 +2355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e992a6e5f2345d42a04e1a59c674c89
-      internalID: 1069632013
+      spriteID: 852f208f287e52a45b6312d4cabb13f7
+      internalID: -1592385673
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_169
+      name: TopDownHouse_FloorsAndWalls (1)_106
       rect:
         serializedVersion: 2
         x: 256
@@ -3699,14 +2376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eef2d43a572b6b54fb4a214e40af4e44
-      internalID: -891246628
+      spriteID: 747bc1dc8281ccc45a48e7a852b01389
+      internalID: 2117576495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_170
+      name: TopDownHouse_FloorsAndWalls (1)_107
       rect:
         serializedVersion: 2
         x: 272
@@ -3720,18 +2397,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e1231af027c0b24f94d737620b1c20e
-      internalID: 689906708
+      spriteID: 03926e27b3f35164aa1c6fd5813542cf
+      internalID: 2009507641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_171
+      name: TopDownHouse_FloorsAndWalls (1)_108
       rect:
         serializedVersion: 2
-        x: 304
-        y: 48
+        x: 0
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -3741,18 +2418,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 713566f84b15f7e4c8e0e2895257ecaf
-      internalID: 2095777462
+      spriteID: f90b1b8471324d548bb77a06ce906528
+      internalID: 26007920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_172
+      name: TopDownHouse_FloorsAndWalls (1)_109
       rect:
         serializedVersion: 2
-        x: 320
-        y: 48
+        x: 16
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -3762,140 +2439,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdc2b48ab98230c41bf65253e9bafe25
-      internalID: -1817359444
+      spriteID: 453be657446a02141aa1b543f0863a2d
+      internalID: 2045830818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_173
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b669d50e822a844ead5c14ac3fae587
-      internalID: -1705096594
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_174
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 235c0c954d741cc458b4c4040fd136f8
-      internalID: -149959401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_175
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eab8cb0ba10801b4089c65a302ea1383
-      internalID: 1041525772
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_176
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40406aad8c67ca440ba467107fd9ae9f
-      internalID: 1609127355
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_177
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a008c76c877bed4419419081dc5f60c6
-      internalID: 815090826
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_178
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 995d768b769909347ae7a3516b79cb7b
-      internalID: 1365270095
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles (floor and walls)_179
+      name: TopDownHouse_FloorsAndWalls (1)_110
       rect:
         serializedVersion: 2
         x: 32
@@ -3909,14 +2460,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 573335875c2f3ac40bc82c69f3e317e9
-      internalID: -52273989
+      spriteID: 110cd40a000d3f54ca03fd49a2079906
+      internalID: -84487877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_180
+      name: TopDownHouse_FloorsAndWalls (1)_111
       rect:
         serializedVersion: 2
         x: 48
@@ -3930,14 +2481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bb1fca1375282a48af98ffa96178985
-      internalID: -854247465
+      spriteID: 2aa77a73ded54a042a27d8fa83cab336
+      internalID: 2101040781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_181
+      name: TopDownHouse_FloorsAndWalls (1)_112
       rect:
         serializedVersion: 2
         x: 64
@@ -3951,14 +2502,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73463e6fd0ad4a5418199c6a0f4c97d4
-      internalID: 1565672883
+      spriteID: 55c9eba17d4e37542b46317eba8eca02
+      internalID: -1409959321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_182
+      name: TopDownHouse_FloorsAndWalls (1)_113
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3121242c0bf68564a9e19ae0ef91b8a1
+      internalID: -943725965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_114
       rect:
         serializedVersion: 2
         x: 96
@@ -3972,14 +2544,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a42ed8cf72998c14b926f6d23717eee0
-      internalID: 1159147265
+      spriteID: 1b50f9a4cd9b2834590d067de8ee2f05
+      internalID: -575993002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_183
+      name: TopDownHouse_FloorsAndWalls (1)_115
       rect:
         serializedVersion: 2
         x: 112
@@ -3993,14 +2565,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad3de921e1276c644a602dd321928464
-      internalID: 1576167626
+      spriteID: ca68ab37352c97d42952f488ec6e47eb
+      internalID: 636280371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_184
+      name: TopDownHouse_FloorsAndWalls (1)_116
       rect:
         serializedVersion: 2
         x: 128
@@ -4014,14 +2586,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de145275e1e53f543bf32c5f86deb6d7
-      internalID: -1487837232
+      spriteID: 76b69c48981cb8b4aba3b12b7f7ba729
+      internalID: -1515021433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_185
+      name: TopDownHouse_FloorsAndWalls (1)_117
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fab71d8118e99842930c58d9a21dc49
+      internalID: -1355638557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_118
       rect:
         serializedVersion: 2
         x: 160
@@ -4035,14 +2628,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecc66ee0314a2494487caaf5c30d0ea4
-      internalID: 1497846109
+      spriteID: 360a9d4e268acc24f98ae0410d6a6296
+      internalID: -949565322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_186
+      name: TopDownHouse_FloorsAndWalls (1)_119
       rect:
         serializedVersion: 2
         x: 176
@@ -4056,14 +2649,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 832e13924ab82e046a39202a1eeff1cb
-      internalID: 1362671619
+      spriteID: 01b0b41c51899fe49b866784aa81b421
+      internalID: 1476520562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_187
+      name: TopDownHouse_FloorsAndWalls (1)_120
       rect:
         serializedVersion: 2
         x: 192
@@ -4077,14 +2670,161 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d675b21c5896c043971561be9f875cb
-      internalID: 75577580
+      spriteID: 1125f35611996c341af7d31b9211f763
+      internalID: 1681084400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_188
+      name: TopDownHouse_FloorsAndWalls (1)_121
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42ad301f3c01224392b49c9e56b4b18
+      internalID: -1926508617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_122
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f4a7adc5dcca5499a2cce32db21d23
+      internalID: -1483715327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_123
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469047203b481bc4aba100f148db2b69
+      internalID: -72061623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_124
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96246f5c13254345969d8d8e5b9dcb3
+      internalID: -1042797574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_125
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49dcf9ebfe3fb334bba675706fccb331
+      internalID: 1939540658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4dfaa1560d526143a4d85ea3fcb29bf
+      internalID: -479309175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_127
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079b0879641ce2645a9cd1c2fb2cc216
+      internalID: -751866336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_128
       rect:
         serializedVersion: 2
         x: 32
@@ -4098,14 +2838,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f43be9eab6f9f74cbbb06695574c2a3
-      internalID: -2007372517
+      spriteID: 61c7ac6b1b190ed4bad7c0b9df887ccb
+      internalID: 801710549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_189
+      name: TopDownHouse_FloorsAndWalls (1)_129
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb2c943932e71b4b9d1fe58a2dcf9c7
+      internalID: -93313554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_130
       rect:
         serializedVersion: 2
         x: 64
@@ -4119,14 +2880,119 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49bfc548d8d44df48b4e9f76f458297e
-      internalID: -1702084570
+      spriteID: 67e2f9e4386a1ee4491b88cf6426305e
+      internalID: 521356079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_190
+      name: TopDownHouse_FloorsAndWalls (1)_131
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e80b914e5267443aa541f588888cc0
+      internalID: -1808829338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_132
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea9582703362414e880b82214bf1424
+      internalID: 1050024128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_133
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90eb2ef30bb03b4cb93bdc4ee2d9fae
+      internalID: 1976154840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_134
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7b8af612104af46a9dd67b81faaefc
+      internalID: -1515437495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_135
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf809a330a3d8f4a8d39a4473db3c7e
+      internalID: 774171749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_136
       rect:
         serializedVersion: 2
         x: 160
@@ -4140,14 +3006,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68186d2e838cf744ba918d68a186cf4f
-      internalID: -902141365
+      spriteID: 9e34df1957bd7a84f89815ff231e8f2c
+      internalID: 1207868625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles (floor and walls)_191
+      name: TopDownHouse_FloorsAndWalls (1)_137
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335955c1cdc8e094cade7fe244e8882b
+      internalID: 1349433027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_138
       rect:
         serializedVersion: 2
         x: 192
@@ -4161,8 +3048,491 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2202532b50d75e849bb9dc0acbb019e6
-      internalID: 1626623934
+      spriteID: 8984febe9239a2847aa0f1ca36e92f51
+      internalID: 158269777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_139
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42aec701345fa794d85d345a8d630e98
+      internalID: 11808438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_140
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944e7ed066d3add498f76bdfd4da5c88
+      internalID: -889883029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_141
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077e1fffa36ea2c4d86b315aeac056b5
+      internalID: -235420819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_142
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e217a548f03cdf14da633ad842ddb6af
+      internalID: -645781844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_143
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb43d4c93ab82141bbeb5ac82f80f06
+      internalID: -488709796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333264e56bcd1e646ab95da990082ee8
+      internalID: -765710074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_145
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecfa19cba21c7049b94da97d1764054
+      internalID: -753814016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_146
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca8b122468673e42ad7070e0b7d2266
+      internalID: 126920066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_147
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603cb5c434fa8c64bac018f89b1a6f18
+      internalID: 1589287203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_148
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce46a52331bbd84ebcd345972b8144a
+      internalID: 696565086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_149
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b4c58eef652ed4288f315514bea03b
+      internalID: 389102463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_150
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ae428d029e4d741a34a8a18d6e0e2e
+      internalID: -1576721776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_151
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ae06cc1e0889143afc9fbdc775b27c
+      internalID: -2123519064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_152
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51cfaeaf37548448becf602a27bcc4e
+      internalID: 1446822057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_153
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ded5b5e7f619c438e843a4a70404c2
+      internalID: 161299781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_154
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56bb7e709069b44bbafef6d7f1fae32
+      internalID: -971451588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_155
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8514e3ec2ab67694ea5ce85885274d2d
+      internalID: 780750548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_156
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fc00e37fe9ab34e9c512c2e4258a06
+      internalID: 2026645159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_157
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7b010445c4607489d1b5ebe5279073
+      internalID: -1628582752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_158
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1ff2741b69c8a4fb9b8f243817480b
+      internalID: -2005177513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_159
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1473aacdc866e4383ad7cb40dcee8d
+      internalID: 1945737039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_160
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c8be51ed6a3d24aad1ece273c13c88
+      internalID: -1836089723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownHouse_FloorsAndWalls (1)_161
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbe28bc12816924aa9c49db02d309c3
+      internalID: -188758842
       vertices: []
       indices: 
       edges: []
@@ -4178,198 +3548,168 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      tiles (floor and walls)_0: -669192464
-      tiles (floor and walls)_1: -260721630
-      tiles (floor and walls)_10: 982408723
-      tiles (floor and walls)_100: -1595922007
-      tiles (floor and walls)_101: -1620779779
-      tiles (floor and walls)_102: 1829177679
-      tiles (floor and walls)_103: -1785399859
-      tiles (floor and walls)_104: 2143602466
-      tiles (floor and walls)_105: -661118367
-      tiles (floor and walls)_106: 1110792584
-      tiles (floor and walls)_107: -1805081448
-      tiles (floor and walls)_108: -1495039560
-      tiles (floor and walls)_109: -331821822
-      tiles (floor and walls)_11: 1103022488
-      tiles (floor and walls)_110: 1270170778
-      tiles (floor and walls)_111: 1797685766
-      tiles (floor and walls)_112: 670144831
-      tiles (floor and walls)_113: 1992651414
-      tiles (floor and walls)_114: -2064285282
-      tiles (floor and walls)_115: -1070965326
-      tiles (floor and walls)_116: -1886606906
-      tiles (floor and walls)_117: 1387911264
-      tiles (floor and walls)_118: 1754784929
-      tiles (floor and walls)_119: 732101372
-      tiles (floor and walls)_12: 160263050
-      tiles (floor and walls)_120: -148434445
-      tiles (floor and walls)_121: 1221952868
-      tiles (floor and walls)_122: 1885370578
-      tiles (floor and walls)_123: -1340306928
-      tiles (floor and walls)_124: 2015298193
-      tiles (floor and walls)_125: 1942017832
-      tiles (floor and walls)_126: 1944603874
-      tiles (floor and walls)_127: 2063781951
-      tiles (floor and walls)_128: 487667827
-      tiles (floor and walls)_129: 250036199
-      tiles (floor and walls)_13: -290760930
-      tiles (floor and walls)_130: -1924990906
-      tiles (floor and walls)_131: -1163669742
-      tiles (floor and walls)_132: 1384778499
-      tiles (floor and walls)_133: 163977162
-      tiles (floor and walls)_134: 867472768
-      tiles (floor and walls)_135: -1243316296
-      tiles (floor and walls)_136: -296242038
-      tiles (floor and walls)_137: 178729409
-      tiles (floor and walls)_138: -1959509787
-      tiles (floor and walls)_139: 1198089673
-      tiles (floor and walls)_14: -219623936
-      tiles (floor and walls)_140: -247814245
-      tiles (floor and walls)_141: -1837229601
-      tiles (floor and walls)_142: 1472727133
-      tiles (floor and walls)_143: -1143841116
-      tiles (floor and walls)_144: -911820310
-      tiles (floor and walls)_145: -1708222098
-      tiles (floor and walls)_146: -720345560
-      tiles (floor and walls)_147: 1491219124
-      tiles (floor and walls)_148: -730199519
-      tiles (floor and walls)_149: -668921349
-      tiles (floor and walls)_15: 373548349
-      tiles (floor and walls)_150: -1829518240
-      tiles (floor and walls)_151: -1222744937
-      tiles (floor and walls)_152: -1136097921
-      tiles (floor and walls)_153: 142822485
-      tiles (floor and walls)_154: -2083575214
-      tiles (floor and walls)_155: 379065502
-      tiles (floor and walls)_156: 573991562
-      tiles (floor and walls)_157: -1793327098
-      tiles (floor and walls)_158: -822719324
-      tiles (floor and walls)_159: -1651512382
-      tiles (floor and walls)_16: 642058240
-      tiles (floor and walls)_160: -580120342
-      tiles (floor and walls)_161: 1886073285
-      tiles (floor and walls)_162: -977273671
-      tiles (floor and walls)_163: 658127956
-      tiles (floor and walls)_164: -1760723762
-      tiles (floor and walls)_165: -2141344476
-      tiles (floor and walls)_166: -1123693478
-      tiles (floor and walls)_167: -1719972103
-      tiles (floor and walls)_168: 1069632013
-      tiles (floor and walls)_169: -891246628
-      tiles (floor and walls)_17: 1402478477
-      tiles (floor and walls)_170: 689906708
-      tiles (floor and walls)_171: 2095777462
-      tiles (floor and walls)_172: -1817359444
-      tiles (floor and walls)_173: -1705096594
-      tiles (floor and walls)_174: -149959401
-      tiles (floor and walls)_175: 1041525772
-      tiles (floor and walls)_176: 1609127355
-      tiles (floor and walls)_177: 815090826
-      tiles (floor and walls)_178: 1365270095
-      tiles (floor and walls)_179: -52273989
-      tiles (floor and walls)_18: 1038301329
-      tiles (floor and walls)_180: -854247465
-      tiles (floor and walls)_181: 1565672883
-      tiles (floor and walls)_182: 1159147265
-      tiles (floor and walls)_183: 1576167626
-      tiles (floor and walls)_184: -1487837232
-      tiles (floor and walls)_185: 1497846109
-      tiles (floor and walls)_186: 1362671619
-      tiles (floor and walls)_187: 75577580
-      tiles (floor and walls)_188: -2007372517
-      tiles (floor and walls)_189: -1702084570
-      tiles (floor and walls)_19: 293581157
-      tiles (floor and walls)_190: -902141365
-      tiles (floor and walls)_191: 1626623934
-      tiles (floor and walls)_2: 2116999232
-      tiles (floor and walls)_20: -592811781
-      tiles (floor and walls)_21: -1672633835
-      tiles (floor and walls)_22: -433013997
-      tiles (floor and walls)_23: 1561369997
-      tiles (floor and walls)_24: -1602508198
-      tiles (floor and walls)_25: -753661063
-      tiles (floor and walls)_26: -24229893
-      tiles (floor and walls)_27: -624300193
-      tiles (floor and walls)_28: -1532590522
-      tiles (floor and walls)_29: 1951025747
-      tiles (floor and walls)_3: 618496859
-      tiles (floor and walls)_30: -333841818
-      tiles (floor and walls)_31: -975574384
-      tiles (floor and walls)_32: -1553825281
-      tiles (floor and walls)_33: 1574344768
-      tiles (floor and walls)_34: -292946726
-      tiles (floor and walls)_35: -1267342453
-      tiles (floor and walls)_36: 1060424651
-      tiles (floor and walls)_37: 1619641390
-      tiles (floor and walls)_38: 1236265284
-      tiles (floor and walls)_39: 1585762519
-      tiles (floor and walls)_4: -551499794
-      tiles (floor and walls)_40: -1200375831
-      tiles (floor and walls)_41: 1161997694
-      tiles (floor and walls)_42: 1487504310
-      tiles (floor and walls)_43: -1512094834
-      tiles (floor and walls)_44: -1826229710
-      tiles (floor and walls)_45: -1794190099
-      tiles (floor and walls)_46: -758305541
-      tiles (floor and walls)_47: 657318479
-      tiles (floor and walls)_48: -1692452339
-      tiles (floor and walls)_49: -117135404
-      tiles (floor and walls)_5: 380674049
-      tiles (floor and walls)_50: 1335191717
-      tiles (floor and walls)_51: -1683075907
-      tiles (floor and walls)_52: 2087010197
-      tiles (floor and walls)_53: -950775144
-      tiles (floor and walls)_54: 991338953
-      tiles (floor and walls)_55: -1096067191
-      tiles (floor and walls)_56: 1391467862
-      tiles (floor and walls)_57: -1894124900
-      tiles (floor and walls)_58: -1507905300
-      tiles (floor and walls)_59: 1675393725
-      tiles (floor and walls)_6: -1321807542
-      tiles (floor and walls)_60: 792749725
-      tiles (floor and walls)_61: 1323358839
-      tiles (floor and walls)_62: -1662199193
-      tiles (floor and walls)_63: -259081615
-      tiles (floor and walls)_64: 724466608
-      tiles (floor and walls)_65: 1390701648
-      tiles (floor and walls)_66: 21354555
-      tiles (floor and walls)_67: 1602223256
-      tiles (floor and walls)_68: 1508227617
-      tiles (floor and walls)_69: 583114700
-      tiles (floor and walls)_7: -80195525
-      tiles (floor and walls)_70: -72115079
-      tiles (floor and walls)_71: -651225036
-      tiles (floor and walls)_72: 882240731
-      tiles (floor and walls)_73: 291613967
-      tiles (floor and walls)_74: 673528449
-      tiles (floor and walls)_75: 580085010
-      tiles (floor and walls)_76: -1592117951
-      tiles (floor and walls)_77: 1076563643
-      tiles (floor and walls)_78: 193309468
-      tiles (floor and walls)_79: -467131026
-      tiles (floor and walls)_8: 2107437301
-      tiles (floor and walls)_80: -1991083593
-      tiles (floor and walls)_81: -1961378167
-      tiles (floor and walls)_82: 295045218
-      tiles (floor and walls)_83: 2120925623
-      tiles (floor and walls)_84: 1125116819
-      tiles (floor and walls)_85: 501808609
-      tiles (floor and walls)_86: 2022264354
-      tiles (floor and walls)_87: -1065877062
-      tiles (floor and walls)_88: 1804041530
-      tiles (floor and walls)_89: 1990753016
-      tiles (floor and walls)_9: 15712880
-      tiles (floor and walls)_90: -1783557521
-      tiles (floor and walls)_91: -593347540
-      tiles (floor and walls)_92: -1241491809
-      tiles (floor and walls)_93: 496880130
-      tiles (floor and walls)_94: -301395981
-      tiles (floor and walls)_95: 34213951
-      tiles (floor and walls)_96: 402198702
-      tiles (floor and walls)_97: -451416733
-      tiles (floor and walls)_98: -1613911929
-      tiles (floor and walls)_99: 749024833
+      TopDownHouse_FloorsAndWalls (1)_0: -559163931
+      TopDownHouse_FloorsAndWalls (1)_1: 2053318277
+      TopDownHouse_FloorsAndWalls (1)_10: -1732424524
+      TopDownHouse_FloorsAndWalls (1)_100: 1212709378
+      TopDownHouse_FloorsAndWalls (1)_101: -1125771284
+      TopDownHouse_FloorsAndWalls (1)_102: 1750264014
+      TopDownHouse_FloorsAndWalls (1)_103: -89182809
+      TopDownHouse_FloorsAndWalls (1)_104: -1104944855
+      TopDownHouse_FloorsAndWalls (1)_105: -1592385673
+      TopDownHouse_FloorsAndWalls (1)_106: 2117576495
+      TopDownHouse_FloorsAndWalls (1)_107: 2009507641
+      TopDownHouse_FloorsAndWalls (1)_108: 26007920
+      TopDownHouse_FloorsAndWalls (1)_109: 2045830818
+      TopDownHouse_FloorsAndWalls (1)_11: -1075734132
+      TopDownHouse_FloorsAndWalls (1)_110: -84487877
+      TopDownHouse_FloorsAndWalls (1)_111: 2101040781
+      TopDownHouse_FloorsAndWalls (1)_112: -1409959321
+      TopDownHouse_FloorsAndWalls (1)_113: -943725965
+      TopDownHouse_FloorsAndWalls (1)_114: -575993002
+      TopDownHouse_FloorsAndWalls (1)_115: 636280371
+      TopDownHouse_FloorsAndWalls (1)_116: -1515021433
+      TopDownHouse_FloorsAndWalls (1)_117: -1355638557
+      TopDownHouse_FloorsAndWalls (1)_118: -949565322
+      TopDownHouse_FloorsAndWalls (1)_119: 1476520562
+      TopDownHouse_FloorsAndWalls (1)_12: -1137872383
+      TopDownHouse_FloorsAndWalls (1)_120: 1681084400
+      TopDownHouse_FloorsAndWalls (1)_121: -1926508617
+      TopDownHouse_FloorsAndWalls (1)_122: -1483715327
+      TopDownHouse_FloorsAndWalls (1)_123: -72061623
+      TopDownHouse_FloorsAndWalls (1)_124: -1042797574
+      TopDownHouse_FloorsAndWalls (1)_125: 1939540658
+      TopDownHouse_FloorsAndWalls (1)_126: -479309175
+      TopDownHouse_FloorsAndWalls (1)_127: -751866336
+      TopDownHouse_FloorsAndWalls (1)_128: 801710549
+      TopDownHouse_FloorsAndWalls (1)_129: -93313554
+      TopDownHouse_FloorsAndWalls (1)_13: -1175984681
+      TopDownHouse_FloorsAndWalls (1)_130: 521356079
+      TopDownHouse_FloorsAndWalls (1)_131: -1808829338
+      TopDownHouse_FloorsAndWalls (1)_132: 1050024128
+      TopDownHouse_FloorsAndWalls (1)_133: 1976154840
+      TopDownHouse_FloorsAndWalls (1)_134: -1515437495
+      TopDownHouse_FloorsAndWalls (1)_135: 774171749
+      TopDownHouse_FloorsAndWalls (1)_136: 1207868625
+      TopDownHouse_FloorsAndWalls (1)_137: 1349433027
+      TopDownHouse_FloorsAndWalls (1)_138: 158269777
+      TopDownHouse_FloorsAndWalls (1)_139: 11808438
+      TopDownHouse_FloorsAndWalls (1)_14: -2078778963
+      TopDownHouse_FloorsAndWalls (1)_140: -889883029
+      TopDownHouse_FloorsAndWalls (1)_141: -235420819
+      TopDownHouse_FloorsAndWalls (1)_142: -645781844
+      TopDownHouse_FloorsAndWalls (1)_143: -488709796
+      TopDownHouse_FloorsAndWalls (1)_144: -765710074
+      TopDownHouse_FloorsAndWalls (1)_145: -753814016
+      TopDownHouse_FloorsAndWalls (1)_146: 126920066
+      TopDownHouse_FloorsAndWalls (1)_147: 1589287203
+      TopDownHouse_FloorsAndWalls (1)_148: 696565086
+      TopDownHouse_FloorsAndWalls (1)_149: 389102463
+      TopDownHouse_FloorsAndWalls (1)_15: -1064272413
+      TopDownHouse_FloorsAndWalls (1)_150: -1576721776
+      TopDownHouse_FloorsAndWalls (1)_151: -2123519064
+      TopDownHouse_FloorsAndWalls (1)_152: 1446822057
+      TopDownHouse_FloorsAndWalls (1)_153: 161299781
+      TopDownHouse_FloorsAndWalls (1)_154: -971451588
+      TopDownHouse_FloorsAndWalls (1)_155: 780750548
+      TopDownHouse_FloorsAndWalls (1)_156: 2026645159
+      TopDownHouse_FloorsAndWalls (1)_157: -1628582752
+      TopDownHouse_FloorsAndWalls (1)_158: -2005177513
+      TopDownHouse_FloorsAndWalls (1)_159: 1945737039
+      TopDownHouse_FloorsAndWalls (1)_16: 85809001
+      TopDownHouse_FloorsAndWalls (1)_160: -1836089723
+      TopDownHouse_FloorsAndWalls (1)_161: -188758842
+      TopDownHouse_FloorsAndWalls (1)_17: 1556419770
+      TopDownHouse_FloorsAndWalls (1)_18: 769872667
+      TopDownHouse_FloorsAndWalls (1)_19: 559883620
+      TopDownHouse_FloorsAndWalls (1)_2: -261176814
+      TopDownHouse_FloorsAndWalls (1)_20: -881575443
+      TopDownHouse_FloorsAndWalls (1)_21: -1441675748
+      TopDownHouse_FloorsAndWalls (1)_22: -1089776411
+      TopDownHouse_FloorsAndWalls (1)_23: -1060827083
+      TopDownHouse_FloorsAndWalls (1)_24: -1659429048
+      TopDownHouse_FloorsAndWalls (1)_25: 1696571325
+      TopDownHouse_FloorsAndWalls (1)_26: 1082812095
+      TopDownHouse_FloorsAndWalls (1)_27: 731085543
+      TopDownHouse_FloorsAndWalls (1)_28: 1827547970
+      TopDownHouse_FloorsAndWalls (1)_29: 758248274
+      TopDownHouse_FloorsAndWalls (1)_3: 2014215945
+      TopDownHouse_FloorsAndWalls (1)_30: -1225346871
+      TopDownHouse_FloorsAndWalls (1)_31: -961726222
+      TopDownHouse_FloorsAndWalls (1)_32: -1985625616
+      TopDownHouse_FloorsAndWalls (1)_33: -463126473
+      TopDownHouse_FloorsAndWalls (1)_34: -1475755924
+      TopDownHouse_FloorsAndWalls (1)_35: 1713407648
+      TopDownHouse_FloorsAndWalls (1)_36: -96564079
+      TopDownHouse_FloorsAndWalls (1)_37: 1711476588
+      TopDownHouse_FloorsAndWalls (1)_38: 1616246302
+      TopDownHouse_FloorsAndWalls (1)_39: 213293542
+      TopDownHouse_FloorsAndWalls (1)_4: 391008488
+      TopDownHouse_FloorsAndWalls (1)_40: -787956967
+      TopDownHouse_FloorsAndWalls (1)_41: 704965555
+      TopDownHouse_FloorsAndWalls (1)_42: 94783540
+      TopDownHouse_FloorsAndWalls (1)_43: 759886867
+      TopDownHouse_FloorsAndWalls (1)_44: -818599122
+      TopDownHouse_FloorsAndWalls (1)_45: -1185315266
+      TopDownHouse_FloorsAndWalls (1)_46: 398892648
+      TopDownHouse_FloorsAndWalls (1)_47: 1287005034
+      TopDownHouse_FloorsAndWalls (1)_48: 1921715727
+      TopDownHouse_FloorsAndWalls (1)_49: 860054625
+      TopDownHouse_FloorsAndWalls (1)_5: 213389628
+      TopDownHouse_FloorsAndWalls (1)_50: -1676368115
+      TopDownHouse_FloorsAndWalls (1)_51: -1452639184
+      TopDownHouse_FloorsAndWalls (1)_52: 494805701
+      TopDownHouse_FloorsAndWalls (1)_53: -1380028246
+      TopDownHouse_FloorsAndWalls (1)_54: -1793732385
+      TopDownHouse_FloorsAndWalls (1)_55: 45001604
+      TopDownHouse_FloorsAndWalls (1)_56: -1420082498
+      TopDownHouse_FloorsAndWalls (1)_57: -1334643800
+      TopDownHouse_FloorsAndWalls (1)_58: -597581052
+      TopDownHouse_FloorsAndWalls (1)_59: 234448412
+      TopDownHouse_FloorsAndWalls (1)_6: 1660436125
+      TopDownHouse_FloorsAndWalls (1)_60: 887138444
+      TopDownHouse_FloorsAndWalls (1)_61: 647459021
+      TopDownHouse_FloorsAndWalls (1)_62: -1168343231
+      TopDownHouse_FloorsAndWalls (1)_63: -679205060
+      TopDownHouse_FloorsAndWalls (1)_64: -2050728963
+      TopDownHouse_FloorsAndWalls (1)_65: -285057146
+      TopDownHouse_FloorsAndWalls (1)_66: 1469635139
+      TopDownHouse_FloorsAndWalls (1)_67: -1769712975
+      TopDownHouse_FloorsAndWalls (1)_68: 374416742
+      TopDownHouse_FloorsAndWalls (1)_69: 1475013624
+      TopDownHouse_FloorsAndWalls (1)_7: 825426229
+      TopDownHouse_FloorsAndWalls (1)_70: -2013686025
+      TopDownHouse_FloorsAndWalls (1)_71: 60598112
+      TopDownHouse_FloorsAndWalls (1)_72: 178858319
+      TopDownHouse_FloorsAndWalls (1)_73: -2031348056
+      TopDownHouse_FloorsAndWalls (1)_74: 1076821719
+      TopDownHouse_FloorsAndWalls (1)_75: -1123501485
+      TopDownHouse_FloorsAndWalls (1)_76: -423720094
+      TopDownHouse_FloorsAndWalls (1)_77: -1661207245
+      TopDownHouse_FloorsAndWalls (1)_78: 523282230
+      TopDownHouse_FloorsAndWalls (1)_79: -1257012055
+      TopDownHouse_FloorsAndWalls (1)_8: 1127391694
+      TopDownHouse_FloorsAndWalls (1)_80: 1641633086
+      TopDownHouse_FloorsAndWalls (1)_81: 1068777224
+      TopDownHouse_FloorsAndWalls (1)_82: -1132304555
+      TopDownHouse_FloorsAndWalls (1)_83: -1095934579
+      TopDownHouse_FloorsAndWalls (1)_84: 1880707663
+      TopDownHouse_FloorsAndWalls (1)_85: 585826252
+      TopDownHouse_FloorsAndWalls (1)_86: 1368277282
+      TopDownHouse_FloorsAndWalls (1)_87: 902032866
+      TopDownHouse_FloorsAndWalls (1)_88: 1496412213
+      TopDownHouse_FloorsAndWalls (1)_89: 1561525658
+      TopDownHouse_FloorsAndWalls (1)_9: 1724332059
+      TopDownHouse_FloorsAndWalls (1)_90: -774926566
+      TopDownHouse_FloorsAndWalls (1)_91: 754926452
+      TopDownHouse_FloorsAndWalls (1)_92: 47082581
+      TopDownHouse_FloorsAndWalls (1)_93: -20670794
+      TopDownHouse_FloorsAndWalls (1)_94: -1110851268
+      TopDownHouse_FloorsAndWalls (1)_95: 992393474
+      TopDownHouse_FloorsAndWalls (1)_96: 1227160537
+      TopDownHouse_FloorsAndWalls (1)_97: 379922753
+      TopDownHouse_FloorsAndWalls (1)_98: -2105634553
+      TopDownHouse_FloorsAndWalls (1)_99: -1672716959
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

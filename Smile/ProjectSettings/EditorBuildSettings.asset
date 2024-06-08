@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BattleScene.unity
     guid: 2b89a21fa3254854584af851a8a0aac5
+  - enabled: 1
+    path: Assets/Scenes/BookRoom.unity
+    guid: a18bd367071c9404492b2399d176c7b0
+  - enabled: 1
+    path: Assets/Scenes/WashRoom.unity
+    guid: d200a57866648ca47a05ef8c9b1ec5d0
   m_configObjects: {}

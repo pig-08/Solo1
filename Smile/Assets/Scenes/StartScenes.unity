@@ -2200,9 +2200,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8e7b95ea93c49b41ae9000de6240702, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _FirstFloor: 0
-  _SecondFloor: 0
-  _BedRoom: 0
 --- !u!1 &1978017385
 GameObject:
   m_ObjectHideFlags: 0

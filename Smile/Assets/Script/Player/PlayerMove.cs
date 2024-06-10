@@ -10,6 +10,7 @@ public class PlayerMove : MonoBehaviour
     private PlayerAnimation _playerAnimation;
     [SerializeField] private int _Speed = 5;
     private Rigidbody2D _playerrigid;
+    public bool Battle {private get; set; } = true;
     
     private void Awake()
     {
@@ -20,9 +21,12 @@ public class PlayerMove : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        _playerInput.Move();
-        _playerAnimation.MoveAni();
-        _playerrigid.velocity = _playerInput._movedir.normalized * _Speed;
+        if(Battle)
+        {
+            _playerInput.Move();
+            _playerAnimation.MoveAni();
+            _playerrigid.velocity = _playerInput._movedir.normalized * _Speed;
+        }
     }    
 }
 

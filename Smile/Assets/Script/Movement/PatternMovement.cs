@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PatternMovement : MonoBehaviour
 {
-    public GameObject[] Canvas{ private set; get; } = new GameObject[2];
+    public GameObject[] Canvas{ private set; get; } = new GameObject[3];
     public static bool Linecolor;
     private void Start()
     {

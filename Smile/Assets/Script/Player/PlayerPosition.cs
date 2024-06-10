@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 public class PlayerPosition : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class PlayerPosition : MonoBehaviour
     private bool _BedRoom;
     private bool _BookRoom;
     private bool _WashRoom;
+    private Vector3 _Position;
     private void Awake()
     {
         DontDestroyOnLoad(this);
@@ -95,5 +97,17 @@ public class PlayerPosition : MonoBehaviour
     {
         yield return null;
         transform.position = new Vector3(0.2f, 0.5f);
+    }
+
+    public void BattlePosition()
+    {
+        StartCoroutine(BattlePositionTIem());
+    }
+
+    private IEnumerator BattlePositionTIem()
+    {
+        _Position = transform.position;
+        yield return null;
+        transform.position = new Vector3(-7.6f, -2.4f);
     }
 }

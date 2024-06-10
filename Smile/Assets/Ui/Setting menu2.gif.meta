@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 088b66ae9dddae74e859a60167043760
+guid: eb37bdf151235f144a5bb5c5d3a77a1e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -136,13 +136,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Green_Idle_0
+      name: Setting menu2_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 37
-        width: 20
-        height: 20
+        x: 11
+        y: 10
+        width: 106
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5196a23c4d885104b943cb1afe4824d7
-      internalID: -1636361667
+      spriteID: 09daa0912e7dade4ca7ee1684c1cb0ec
+      internalID: -1401478998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green_Idle_1
+      name: Setting menu2_1
       rect:
         serializedVersion: 2
-        x: 41
-        y: 37
-        width: 20
-        height: 20
+        x: 139
+        y: 10
+        width: 106
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,134 +171,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a4e503473f95fd45a96ec72af232478
-      internalID: -1175342874
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green_Idle_2
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 37
-        width: 20
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9389d50d3bc815d4fabb558405e41605
-      internalID: -1307409043
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green_Idle_3
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 37
-        width: 20
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e513b0e40fa4604890f8cdb5c7e104d
-      internalID: -523586442
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green_Idle_4
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 5
-        width: 20
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6304debcd06ea141b6efe92eb4fd72e
-      internalID: 1759564777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green_Idle_5
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 5
-        width: 20
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 705598a458bcc2d40a8d65933e64e782
-      internalID: 919651789
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green_Idle_6
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 5
-        width: 20
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e1f6dad7253a7e445945ec08ddec1131
-      internalID: -553761472
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green_Idle_7
-      rect:
-        serializedVersion: 2
-        x: 99
-        y: 5
-        width: 20
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ebbdf864e928d4f43a0f05046edb2d40
-      internalID: -838175143
+      spriteID: 7092324d51352d448872497eadd884b1
+      internalID: -1929471940
       vertices: []
       indices: 
       edges: []
@@ -314,14 +188,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Green_Idle_0: -1636361667
-      Green_Idle_1: -1175342874
-      Green_Idle_2: -1307409043
-      Green_Idle_3: -523586442
-      Green_Idle_4: 1759564777
-      Green_Idle_5: 919651789
-      Green_Idle_6: -553761472
-      Green_Idle_7: -838175143
+      Setting menu2_0: -1401478998
+      Setting menu2_1: -1929471940
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

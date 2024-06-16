@@ -10,12 +10,16 @@ public class LineMovement : MonoBehaviour
     private static bool[] lineCheck = new bool[7];
     private static bool[] lineCheckCount = new bool[7];
     public static int _Count;
+    private BattleAnimationHeart _battleAnimationHeart;
+    private BattleAnimationStars _battleAnimationStars;
 
     private void Awake()
     {
         _line[gameObject.name[4] - 48] = GetComponent<Image>();
         _patternMovement = FindObjectOfType<PatternMovement>();
         _line[gameObject.name[4] - 48].color = Color.gray;
+        _battleAnimationHeart = FindObjectOfType<BattleAnimationHeart>();
+        _battleAnimationStars = FindObjectOfType<BattleAnimationStars>();
     }
     private void Update()
     {
@@ -49,10 +53,9 @@ public class LineMovement : MonoBehaviour
     {
         if(_Count == lineCheck.Length)
         {
-            print("¼º°ø!");
-            _Count = 0;
             _patternMovement.SetActiveFalse();
-            _patternMovement.PatternCheck();
+            _battleAnimationStars.Statrs();
+            _Count = 0;
         }
         else
         {
@@ -68,7 +71,7 @@ public class LineMovement : MonoBehaviour
                 else
                 {
                     _patternMovement.SetActiveFalse();
-                    _patternMovement.PatternCheck();
+                    _battleAnimationHeart.Heart();
                 }
             }
             else if (ButtonStars._check[0] && ButtonStars._check[1] && gameObject.name == "Line1")
@@ -83,7 +86,7 @@ public class LineMovement : MonoBehaviour
                 else
                 {
                     _patternMovement.SetActiveFalse();
-                    _patternMovement.PatternCheck();
+                    _battleAnimationHeart.Heart();
                 }
             }
             else if (ButtonStars._check[0] && ButtonStars._check[3] && gameObject.name == "Line2")
@@ -98,7 +101,7 @@ public class LineMovement : MonoBehaviour
                 else
                 {
                     _patternMovement.SetActiveFalse();
-                    _patternMovement.PatternCheck();
+                    _battleAnimationHeart.Heart();
                 }
             }
             else if (ButtonStars._check[1] && ButtonStars._check[2] && gameObject.name == "Line3")
@@ -113,7 +116,7 @@ public class LineMovement : MonoBehaviour
                 else
                 {
                     _patternMovement.SetActiveFalse();
-                    _patternMovement.PatternCheck();
+                    _battleAnimationHeart.Heart();
                 }
             }
             else if (ButtonStars._check[2] && ButtonStars._check[4] && gameObject.name == "Line4")
@@ -128,7 +131,7 @@ public class LineMovement : MonoBehaviour
                 else
                 {
                     _patternMovement.SetActiveFalse();
-                    _patternMovement.PatternCheck();
+                    _battleAnimationHeart.Heart();
                 }
             }
             else if (ButtonStars._check[2] && ButtonStars._check[3] && gameObject.name == "Line5")
@@ -143,7 +146,7 @@ public class LineMovement : MonoBehaviour
                 else
                 {
                     _patternMovement.SetActiveFalse();
-                    _patternMovement.PatternCheck();
+                    _battleAnimationHeart.Heart();
                 }
             }
             else if (ButtonStars._check[0] && ButtonStars._check[2] && gameObject.name == "Line6")
@@ -158,7 +161,7 @@ public class LineMovement : MonoBehaviour
                 else
                 {
                     _patternMovement.SetActiveFalse();
-                    _patternMovement.PatternCheck();
+                    _battleAnimationHeart.Heart();
                 }
             }
         }

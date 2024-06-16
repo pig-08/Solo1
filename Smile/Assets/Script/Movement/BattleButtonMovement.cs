@@ -23,6 +23,7 @@ public class BattleButtonMovement : MonoBehaviour
     {
         gameObject.SetActive(true);
         _imageMovement.ImageCheck(i);
+        _playerPosition.BattlePresentPosition();
     }
 
     public void No()

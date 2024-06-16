@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class PatternMovement : MonoBehaviour
 {
-    public GameObject[] Canvas{ private set; get; } = new GameObject[3];
+    public GameObject[] Canvas{ private set; get; } = new GameObject[7];
     public static bool Linecolor;
+    private int _click = 9999;
     private void Start()
     {
         foreach (GameObject item in Canvas)
@@ -17,8 +18,18 @@ public class PatternMovement : MonoBehaviour
     public void PatternCheck()
     {
         int i = Random.Range(0, Canvas.Length);
-        Linecolor = true;
-        Canvas[i].SetActive(true);
+        while (true)
+        {
+            if(_click == i)
+                i = Random.Range(0, Canvas.Length);
+            else
+            {
+                Linecolor = true;
+                _click = i;
+                Canvas[i].SetActive(true);
+                break;
+            }
+        }
     }
 
     public void SetActiveFalse()

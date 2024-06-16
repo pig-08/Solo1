@@ -6,10 +6,15 @@ using UnityEngine.SceneManagement;
 public class ButtonMovement : MonoBehaviour
 {
     private PlayerPosition _playerPosition;
+    private PlayerMove _playerMove;
+    private PlayerInput _playerInput;
     public string _Location { get; set; }
     private void Awake()
     {
+        
         _playerPosition = FindObjectOfType<PlayerPosition>();
+        _playerMove = FindObjectOfType<PlayerMove>();
+        _playerInput = FindObjectOfType<PlayerInput>();
     }
 
     private void Start()
@@ -36,7 +41,15 @@ public class ButtonMovement : MonoBehaviour
         SceneManager.LoadScene("BedRoom");
         _playerPosition.PlayerVector();
         _playerPosition.SceneLocation();
+    }
 
+    public void Home()
+    {
+        SceneManager.LoadScene(_playerPosition.SceneName);
+        _playerMove.Battle = true;
+        _playerPosition.HomeMovement();
+        _playerPosition.SceneLocation();
+        _playerInput.IsTrigger();
     }
 
 

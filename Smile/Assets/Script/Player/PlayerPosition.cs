@@ -12,10 +12,15 @@ public class PlayerPosition : MonoBehaviour
     private bool _BedRoom;
     private bool _BookRoom;
     private bool _WashRoom;
-    private Vector3 _Position;
+    private Vector3 _position;
+    private string _name = "FirstFloor";
+    private PlayerInput _playerInput;
+
+    public string SceneName { get;private set; }
     private void Awake()
     {
         DontDestroyOnLoad(this);
+        _playerInput = GetComponent<PlayerInput>();
     }
 
     public void PositionChange()
@@ -86,6 +91,8 @@ public class PlayerPosition : MonoBehaviour
             _BookRoom = true;
         else if(SceneManager.GetActiveScene().name == "WashRoom")
             _WashRoom = true;
+        if (_name == SceneManager.GetActiveScene().name)
+            _playerInput.ObjectGet();
     }
 
     public void PlayerVector()
@@ -104,10 +111,24 @@ public class PlayerPosition : MonoBehaviour
         StartCoroutine(BattlePositionTIem());
     }
 
+    public void BattlePresentPosition()
+    {
+        SceneName = SceneManager.GetActiveScene().name;
+        _position = transform.position;
+    }
     private IEnumerator BattlePositionTIem()
     {
-        _Position = transform.position;
         yield return null;
         transform.position = new Vector3(-7.6f, -2.4f);
+    }
+    public void HomeMovement()
+    {
+        StartCoroutine(HomeMovementTime());
+    }
+
+    private IEnumerator HomeMovementTime()
+    {
+        yield return null;
+        transform.position = _position;
     }
 }

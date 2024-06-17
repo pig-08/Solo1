@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerInput : MonoBehaviour
 {
     public Vector3 _movedir { get; private set; }
-    [SerializeField]private TvContact _tvContact;
+    private TvContact _tvContact;
     public void ObjectGet()
     {
         _tvContact = FindObjectOfType<TvContact>();

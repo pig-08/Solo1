@@ -11,7 +11,8 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private int _Speed = 5;
     private Rigidbody2D _playerrigid;
     public bool Battle {private get; set; } = true;
-    
+    public int _Count { get; set; }
+
     private void Awake()
     {
         _playerInput = GetComponent<PlayerInput>();

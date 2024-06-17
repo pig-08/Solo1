@@ -131,4 +131,9 @@ public class PlayerPosition : MonoBehaviour
         yield return null;
         transform.position = _position;
     }
+
+    public void PlayerDelete()
+    {
+        Destroy(gameObject);
+    }
 }

@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WashRoom.unity
     guid: d200a57866648ca47a05ef8c9b1ec5d0
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 3f7a35a3dffdd0f4c9c7715c69e8ce7c
   m_configObjects: {}

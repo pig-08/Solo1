@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 88b41cf6eb5f2b64081fe9fc8dbebf3a
+guid: 1669982928d9cfb4c959f21b58a0b6e0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -136,169 +136,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Square Buttons 26x26_0
+      name: Space Sprite Sheet_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 153
-        width: 26
-        height: 28
+        x: 0
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78d7b1a5d13f922419320d973b381003
-      internalID: -1950819936
+      spriteID: 8aad2168a7c8bd44eb0d4834191ef8f5
+      internalID: -405840139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Square Buttons 26x26_1
+      name: Space Sprite Sheet_1
       rect:
         serializedVersion: 2
-        x: 59
-        y: 155
-        width: 26
-        height: 26
+        x: 64
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bada86ec19ad71499fa4aef87a67bb3
-      internalID: 913188658
+      spriteID: 109d370393e0b334b8725cf2a17b61ed
+      internalID: -913002375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Square Buttons 26x26_2
+      name: Space Sprite Sheet_2
       rect:
         serializedVersion: 2
-        x: 11
-        y: 105
-        width: 26
-        height: 28
+        x: 128
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3705f002913d3b642ba325260ef51a90
-      internalID: -1515826284
+      spriteID: a07e2b8760e41524dae49b612262d37d
+      internalID: -870368537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Square Buttons 26x26_3
+      name: Space Sprite Sheet_3
       rect:
         serializedVersion: 2
-        x: 59
-        y: 107
-        width: 26
-        height: 26
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 4, y: 4, z: 4, w: 4}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c57880d295233864db3c44c0ff72f1d4
-      internalID: -395780829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Square Buttons 26x26_4
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 57
-        width: 26
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ab76d2fd0173ed46b8338555cb9499c
-      internalID: 795617334
+      spriteID: 266c4f8fce144f34abda9fab54e7e200
+      internalID: -357981423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Square Buttons 26x26_5
+      name: Space Sprite Sheet_4
       rect:
         serializedVersion: 2
-        x: 59
-        y: 59
-        width: 26
-        height: 26
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29b590d00287819438b3e069f0ed0bb4
-      internalID: 644185794
+      spriteID: ee37b377e4f82f6439048d0627191522
+      internalID: 1804526109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Square Buttons 26x26_6
+      name: Space Sprite Sheet_5
       rect:
         serializedVersion: 2
-        x: 11
-        y: 9
-        width: 26
-        height: 28
+        x: 128
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06f947ac6d006cf42a4f55200a1d10ab
-      internalID: -549729076
+      spriteID: 875bbdaa77b75ab438c7dde997d22926
+      internalID: 1536283993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Square Buttons 26x26_7
+      name: Space Sprite Sheet_6
       rect:
         serializedVersion: 2
-        x: 59
-        y: 11
-        width: 26
-        height: 26
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1e4e6febd702454db28d2dccc78bbb9
-      internalID: -682563655
+      spriteID: 68f607682ad351e4dbc1cc177bf8f017
+      internalID: -1149049094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4f1176619805c49bb5d3fd390b0c6f
+      internalID: -808436661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0add8b157e807f543bd183d6321a43a8
+      internalID: -1743596757
       vertices: []
       indices: 
       edges: []
@@ -314,14 +335,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Square Buttons 26x26_0: -1950819936
-      Square Buttons 26x26_1: 913188658
-      Square Buttons 26x26_2: -1515826284
-      Square Buttons 26x26_3: -395780829
-      Square Buttons 26x26_4: 795617334
-      Square Buttons 26x26_5: 644185794
-      Square Buttons 26x26_6: -549729076
-      Square Buttons 26x26_7: -682563655
+      Space Sprite Sheet_0: -405840139
+      Space Sprite Sheet_1: -913002375
+      Space Sprite Sheet_2: -870368537
+      Space Sprite Sheet_3: -357981423
+      Space Sprite Sheet_4: 1804526109
+      Space Sprite Sheet_5: 1536283993
+      Space Sprite Sheet_6: -1149049094
+      Space Sprite Sheet_7: -808436661
+      Space Sprite Sheet_8: -1743596757
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

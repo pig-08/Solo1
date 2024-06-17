@@ -52,5 +52,16 @@ public class ButtonMovement : MonoBehaviour
         _playerInput.IsTrigger();
     }
 
+    public void GameOver()
+    {
+        SceneManager.LoadScene("GameOver");
+    }
+
+    public void Restart()
+    {
+        _playerPosition.PlayerDelete();
+        SceneManager.LoadScene("StartScenes");
+    }
+
 
 }

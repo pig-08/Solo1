@@ -30,10 +30,4 @@ public class PlayerAnimation : MonoBehaviour
     {
         gameObject.SetActive(true);
     }
-
-    private IEnumerator Time()
-    {
-        yield return null;
-        gameObject.SetActive(true);
-    }
 }

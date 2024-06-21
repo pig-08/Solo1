@@ -21,9 +21,9 @@ public class BattleAnimationStars : MonoBehaviour
 
     private IEnumerator StatrTime()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.4f);
+        _gameImage.Stars();
         gameObject.SetActive(false);
         _patternMovement.PatternCheck();
-        _gameImage.Stars();
     }
 }

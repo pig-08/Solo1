@@ -53,6 +53,7 @@ public class LineMovement6 : MonoBehaviour
     {
         if (_Count == lineCheck.Length)
         {
+            for (int i = 0; i < ButtonStars6._check.Length; i++) ButtonStars6._check[i] = false;
             _patternMovement.SetActiveFalse();
             _battleAnimationStars.Statrs();
             _Count = 0;
@@ -70,6 +71,7 @@ public class LineMovement6 : MonoBehaviour
                 }
                 else
                 {
+                    for (int i = 0; i < ButtonStars6._check.Length; i++) ButtonStars6._check[i] = false;
                     _patternMovement.SetActiveFalse();
                     _battleAnimationHeart.Heart();
                 }
@@ -86,6 +88,7 @@ public class LineMovement6 : MonoBehaviour
                 }
                 else
                 {
+                    for (int i = 0; i < ButtonStars6._check.Length; i++) ButtonStars6._check[i] = false;
                     _patternMovement.SetActiveFalse();
                     _battleAnimationHeart.Heart();
                 }
@@ -101,6 +104,7 @@ public class LineMovement6 : MonoBehaviour
                 }
                 else
                 {
+                    for (int i = 0; i < ButtonStars6._check.Length; i++) ButtonStars6._check[i] = false;
                     _patternMovement.SetActiveFalse();
                     _battleAnimationHeart.Heart();
                 }
@@ -117,6 +121,7 @@ public class LineMovement6 : MonoBehaviour
                 }
                 else
                 {
+                    for (int i = 0; i < ButtonStars6._check.Length; i++) ButtonStars6._check[i] = false;
                     _patternMovement.SetActiveFalse();
                     _battleAnimationHeart.Heart();
                 }
@@ -132,6 +137,7 @@ public class LineMovement6 : MonoBehaviour
                 }
                 else
                 {
+                    for (int i = 0; i < ButtonStars6._check.Length; i++) ButtonStars6._check[i] = false;
                     _patternMovement.SetActiveFalse();
                     _battleAnimationHeart.Heart();
                 }
@@ -147,6 +153,7 @@ public class LineMovement6 : MonoBehaviour
                 }
                 else
                 {
+                    for (int i = 0; i < ButtonStars6._check.Length; i++) ButtonStars6._check[i] = false;
                     _patternMovement.SetActiveFalse();
                     _battleAnimationHeart.Heart();
                 }
@@ -162,6 +169,7 @@ public class LineMovement6 : MonoBehaviour
                 }
                 else
                 {
+                    for (int i = 0; i < ButtonStars6._check.Length; i++) ButtonStars6._check[i] = false;
                     _patternMovement.SetActiveFalse();
                     _battleAnimationHeart.Heart();
                 }
@@ -177,6 +185,7 @@ public class LineMovement6 : MonoBehaviour
                 }
                 else
                 {
+                    for (int i = 0; i < ButtonStars6._check.Length; i++) ButtonStars6._check[i] = false;
                     _patternMovement.SetActiveFalse();
                     _battleAnimationHeart.Heart();
                 }
@@ -192,6 +201,7 @@ public class LineMovement6 : MonoBehaviour
                 }
                 else
                 {
+                    for (int i = 0; i < ButtonStars6._check.Length; i++) ButtonStars6._check[i] = false;
                     _patternMovement.SetActiveFalse();
                     _battleAnimationHeart.Heart();
                 }
@@ -207,6 +217,7 @@ public class LineMovement6 : MonoBehaviour
                 }
                 else
                 {
+                    for (int i = 0; i < ButtonStars6._check.Length; i++) ButtonStars6._check[i] = false;
                     _patternMovement.SetActiveFalse();
                     _battleAnimationHeart.Heart();
                 }
@@ -222,6 +233,7 @@ public class LineMovement6 : MonoBehaviour
                 }
                 else
                 {
+                    for (int i = 0; i < ButtonStars6._check.Length; i++) ButtonStars6._check[i] = false;
                     _patternMovement.SetActiveFalse();
                     _battleAnimationHeart.Heart();
                 }
@@ -237,6 +249,7 @@ public class LineMovement6 : MonoBehaviour
                 }
                 else
                 {
+                    for (int i = 0; i < ButtonStars6._check.Length; i++) ButtonStars6._check[i] = false;
                     _patternMovement.SetActiveFalse();
                     _battleAnimationHeart.Heart();
                 }

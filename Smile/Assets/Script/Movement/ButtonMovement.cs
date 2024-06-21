@@ -8,6 +8,7 @@ public class ButtonMovement : MonoBehaviour
     private PlayerPosition _playerPosition;
     private PlayerMove _playerMove;
     private PlayerInput _playerInput;
+    private PlayerEnemyHint _playerEnemyHint;
     public string _Location { get; set; }
     private void Awake()
     {
@@ -15,6 +16,7 @@ public class ButtonMovement : MonoBehaviour
         _playerPosition = FindObjectOfType<PlayerPosition>();
         _playerMove = FindObjectOfType<PlayerMove>();
         _playerInput = FindObjectOfType<PlayerInput>();
+        _playerEnemyHint = FindObjectOfType<PlayerEnemyHint>();
     }
 
     private void Start()
@@ -38,7 +40,7 @@ public class ButtonMovement : MonoBehaviour
     }
     public void PLAY()
     {
-        SceneManager.LoadScene("BedRoom");
+        SceneManager.LoadScene("TutorialScene");
         _playerPosition.PlayerVector();
         _playerPosition.SceneLocation();
     }
@@ -50,6 +52,9 @@ public class ButtonMovement : MonoBehaviour
         _playerPosition.HomeMovement();
         _playerPosition.SceneLocation();
         _playerInput.IsTrigger();
+        _playerEnemyHint.EnemyClick[++_playerEnemyHint.EnemyCount] = true;
+        _playerInput.EnemeyCount[_playerEnemyHint.EnemyCount - 1] = true;
+        if (_playerPosition.BattleScene == 1) _playerPosition.FirstEnemy = true;
     }
 
     public void GameOver()

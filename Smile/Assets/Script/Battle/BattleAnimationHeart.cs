@@ -21,9 +21,9 @@ public class BattleAnimationHeart : MonoBehaviour
 
     private IEnumerator HeartTime()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.4f);
+        _gameImage.Heart();
         gameObject.SetActive(false);
         _patternMovement.PatternCheck();
-        _gameImage.Heart();
     }
 }

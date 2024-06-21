@@ -61,12 +61,15 @@ public class ButtonStars7 : MonoBehaviour
             _stars[1].interactable = false;
             _stars[3].interactable = false;
             _stars[9].interactable = false;
+            _stars[5].interactable = false;
+            _stars[6].interactable = false;
         }
         else if (j.name == "Stars5")
         {//0.1.6.7
             _stars[2].interactable = false;
             _stars[3].interactable = false;
             _stars[4].interactable = false;
+            _stars[8].interactable = false;
             _stars[9].interactable = false;
         }
         else if (j.name == "Stars6")
@@ -95,6 +98,7 @@ public class ButtonStars7 : MonoBehaviour
             _stars[5].interactable = false;
             _stars[7].interactable = false;
             _stars[9].interactable = false;
+            _stars[0].interactable = false;
         }
         else if (j.name == "Stars9")
         {//0.6

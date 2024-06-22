@@ -9,14 +9,15 @@ public class ButtonMovement : MonoBehaviour
     private PlayerMove _playerMove;
     private PlayerInput _playerInput;
     private PlayerEnemyHint _playerEnemyHint;
+    private TurtorislcCheckM _turtorislcCheck;
     public string _Location { get; set; }
     private void Awake()
     {
-        
         _playerPosition = FindObjectOfType<PlayerPosition>();
         _playerMove = FindObjectOfType<PlayerMove>();
         _playerInput = FindObjectOfType<PlayerInput>();
         _playerEnemyHint = FindObjectOfType<PlayerEnemyHint>();
+        _turtorislcCheck = FindObjectOfType<TurtorislcCheckM>() == null? _turtorislcCheck = null : FindObjectOfType<TurtorislcCheckM>();
     }
 
     private void Start()
@@ -40,9 +41,18 @@ public class ButtonMovement : MonoBehaviour
     }
     public void PLAY()
     {
-        SceneManager.LoadScene("TutorialScene");
-        _playerPosition.PlayerVector();
-        _playerPosition.SceneLocation();
+        if (_turtorislcCheck == null)
+        {
+            SceneManager.LoadScene("TutorialScene");
+            _playerPosition.PlayerVector();
+            _playerPosition.SceneLocation();
+        }
+        else if (_turtorislcCheck!= null)
+        {
+            SceneManager.LoadScene("BedRoom");
+            _playerPosition.PlayerVector();
+            _playerPosition.SceneLocation();
+        }
     }
 
     public void Home()
@@ -52,9 +62,11 @@ public class ButtonMovement : MonoBehaviour
         _playerPosition.HomeMovement();
         _playerPosition.SceneLocation();
         _playerInput.IsTrigger();
-        _playerEnemyHint.EnemyClick[++_playerEnemyHint.EnemyCount] = true;
+        if (_playerEnemyHint.EnemyCount > 0) _playerEnemyHint.EnemyClick[_playerEnemyHint.EnemyCount - 1] = false;
+        _playerEnemyHint.EnemyClick[_playerEnemyHint.EnemyCount++] = true;
         _playerInput.EnemeyCount[_playerEnemyHint.EnemyCount - 1] = true;
         if (_playerPosition.BattleScene == 1) _playerPosition.FirstEnemy = true;
+
     }
 
     public void GameOver()

@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ButtonStars2 : MonoBehaviour
+public class TutorislButtonStars : MonoBehaviour
 {
-    public static Button[] _stars = new Button[6];
-    public static bool[] _check = new bool[6];
+    public static Button[] _stars = new Button[3];
+    public static bool[] _check = new bool[3];
+    public static bool battleChecl; 
     public static int buttonCount;
     private static int _clickCount;
     private static int _startCount;
@@ -20,34 +21,14 @@ public class ButtonStars2 : MonoBehaviour
     {
         i -= 48;
         foreach (Button item in _stars)
+        {
             item.interactable = true;
+        }
         if (j.name == "Stars0")
         {
             _stars[1].interactable = false;
-            _stars[4].interactable = false;
-            _stars[5].interactable = false;
         }
         else if (j.name == "Stars1")
-        {
-            _stars[0].interactable = false;
-            _stars[3].interactable = false;
-            _stars[4].interactable = false;
-        }
-        else if (j.name == "Stars2")
-        {
-            _stars[4].interactable = false;
-        }
-        else if (j.name == "Stars3")
-        {
-            _stars[1].interactable = false;
-        }
-        else if (j.name == "Stars4")
-        {
-            _stars[0].interactable = false;
-            _stars[1].interactable = false;
-            _stars[2].interactable = false;
-        }
-        else if (j.name == "Stars5")
         {
             _stars[0].interactable = false;
         }

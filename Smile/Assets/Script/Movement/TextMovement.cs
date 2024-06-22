@@ -16,4 +16,5 @@ public class TextMovement : MonoBehaviour
         _textMeshProUGUI.text = $"{i}으로\n가시겠습니까?";
     }
 
+    
 }

@@ -7,7 +7,6 @@ public class ButtonStars5 : MonoBehaviour
 {
     public static Button[] _stars = new Button[8];
     public static bool[] _check = new bool[8];
-    public static bool[] _starsCheck = new bool[8];
     public static int buttonCount;
     private static int _clickCount;
     private static int _startCount;

@@ -17,7 +17,7 @@ public class BookCaseContact : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (_enemyHint.EnemyClick[1])
+        if (_enemyHint.EnemyClick[0])
         {
             _battleButtonMovement.Window(1);
             _playerPosition.BattleScene = 0;

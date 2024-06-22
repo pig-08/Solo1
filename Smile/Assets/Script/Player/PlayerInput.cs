@@ -8,7 +8,7 @@ public class PlayerInput : MonoBehaviour
     public PlayerPosition _position;
     public GameObject _talkMovement { private get; set; }
     private TvContact _tvContact;
-    [SerializeField]private BookCaseContact _bookCaseContact;
+    private BookCaseContact _bookCaseContact;
     public bool[] EnemeyCount { get; set; } = new bool[6];
     
     private void Awake()

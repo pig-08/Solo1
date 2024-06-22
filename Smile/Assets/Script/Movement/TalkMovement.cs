@@ -87,7 +87,7 @@ public class TalkMovement : MonoBehaviour
                 if (Input.GetButtonDown("Fire1"))
                     _textMeshProUGUI.text = First[_playerMove._FirstTalkCount++];
                 else if (_playerMove._FirstTalkCount == 2)
-                    _playerEnemyHint.HintImageSet(true);
+                    _playerEnemyHint.HintButton();
                 else if (_playerMove._FirstTalkCount == 3)
                     _playerEnemyHint.HintImageSet(false);
             }

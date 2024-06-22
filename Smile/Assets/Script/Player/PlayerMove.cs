@@ -8,7 +8,7 @@ public class PlayerMove : MonoBehaviour
 {
     private PlayerInput _playerInput;
     private PlayerAnimation _playerAnimation;
-    [SerializeField] private int _Speed = 5;
+    private int _Speed = 5;
     private Rigidbody2D _playerrigid;
     public bool Battle {private get; set; } = true;
     public int _StartTalkCount { get; set; }
@@ -23,12 +23,13 @@ public class PlayerMove : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if(Battle)
+        if (Battle)
         {
             _playerInput.Move();
             _playerAnimation.MoveAni();
             _playerrigid.velocity = _playerInput._movedir.normalized * _Speed;
         }
+        else if (!Battle) _playerrigid.velocity = new Vector2(0,0);
     }    
 }
 

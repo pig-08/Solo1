@@ -62,7 +62,8 @@ public class ButtonMovement : MonoBehaviour
         _playerPosition.HomeMovement();
         _playerPosition.SceneLocation();
         _playerInput.IsTrigger();
-        if (_playerEnemyHint.EnemyCount > 0) _playerEnemyHint.EnemyClick[_playerEnemyHint.EnemyCount - 1] = false;
+        if (_playerEnemyHint.EnemyCount == 6) SceneManager.LoadScene("");
+        else if (_playerEnemyHint.EnemyCount > 0) _playerEnemyHint.EnemyClick[_playerEnemyHint.EnemyCount - 1] = false;
         _playerEnemyHint.EnemyClick[_playerEnemyHint.EnemyCount++] = true;
         _playerInput.EnemeyCount[_playerEnemyHint.EnemyCount - 1] = true;
         if (_playerPosition.BattleScene == 1) _playerPosition.FirstEnemy = true;

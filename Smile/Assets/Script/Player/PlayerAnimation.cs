@@ -30,4 +30,10 @@ public class PlayerAnimation : MonoBehaviour
     {
         gameObject.SetActive(true);
     }
+
+    public void Animationfalse()
+    {
+        _animator.SetFloat(Anix, 0);
+        _animator.SetFloat(Aniy, 0);
+    }
 }

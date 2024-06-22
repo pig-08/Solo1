@@ -50,11 +50,6 @@ public class PlayerInput : MonoBehaviour
             _tvContact.BoxCollider.isTrigger = true;
             EnemeyCount[0] = false;
         }
-        else if (EnemeyCount[1])
-        {
-            _bookCaseContact.BoxCollider.isTrigger = true;
-            EnemeyCount[1] = false;
-        }
     }
 
 }

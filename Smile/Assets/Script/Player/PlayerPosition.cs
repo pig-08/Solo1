@@ -14,6 +14,7 @@ public class PlayerPosition : MonoBehaviour
     private bool _WashRoom;
     private Vector3 _position;
     private PlayerInput _playerInput;
+    private CapsuleCollider2D _capsuleCollider;
     public int BattleScene { get; set;}
     public string SceneName { get;private set; }
     public bool FirstEnemy { get; set; }
@@ -21,6 +22,7 @@ public class PlayerPosition : MonoBehaviour
     {
         DontDestroyOnLoad(this);
         _playerInput = GetComponent<PlayerInput>();
+        _capsuleCollider = GetComponent<CapsuleCollider2D>();
     }
 
     public void PositionChange()
@@ -122,8 +124,10 @@ public class PlayerPosition : MonoBehaviour
 
     private IEnumerator HomeMovementTime()
     {
+        _capsuleCollider.isTrigger = true;
         yield return null;
         transform.position = _position;
+        _capsuleCollider.isTrigger = false;
     }
 
     public void PlayerDelete()

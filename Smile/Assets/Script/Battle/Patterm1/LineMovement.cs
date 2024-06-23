@@ -12,7 +12,7 @@ public class LineMovement : MonoBehaviour
     public static int _Count;
     private BattleAnimationHeart _battleAnimationHeart;
     private BattleAnimationStars _battleAnimationStars;
-
+    private TurtorislcCheckM _turtorislcCheckM;
     private void Awake()
     {
         _line[gameObject.name[4] - 48] = GetComponent<Image>();
@@ -20,6 +20,7 @@ public class LineMovement : MonoBehaviour
         _line[gameObject.name[4] - 48].color = Color.gray;
         _battleAnimationHeart = FindObjectOfType<BattleAnimationHeart>();
         _battleAnimationStars = FindObjectOfType<BattleAnimationStars>();
+        _turtorislcCheckM = FindObjectOfType<TurtorislcCheckM>();
     }
     private void Update()
     {
@@ -54,6 +55,7 @@ public class LineMovement : MonoBehaviour
         if(_Count == lineCheck.Length)
         {
             for (int i = 0; i < ButtonStars._check.Length; i++) ButtonStars._check[i] = false;
+            _turtorislcCheckM.LineSuccessCount++;
             _patternMovement.SetActiveFalse();
             _battleAnimationStars.Statrs();
             _Count = 0;
@@ -72,6 +74,7 @@ public class LineMovement : MonoBehaviour
                 else
                 {
                     for (int i = 0; i < ButtonStars._check.Length; i++) ButtonStars._check[i] = false;
+                    _turtorislcCheckM.LineFailCount++;
                     _patternMovement.SetActiveFalse();
                     _battleAnimationHeart.Heart();
                 }
@@ -88,6 +91,7 @@ public class LineMovement : MonoBehaviour
                 else
                 {
                     for (int i = 0; i < ButtonStars._check.Length; i++) ButtonStars._check[i] = false;
+                    _turtorislcCheckM.LineFailCount++;
                     _patternMovement.SetActiveFalse();
                     _battleAnimationHeart.Heart();
                 }
@@ -104,6 +108,7 @@ public class LineMovement : MonoBehaviour
                 else
                 {
                     for (int i = 0; i < ButtonStars._check.Length; i++) ButtonStars._check[i] = false;
+                    _turtorislcCheckM.LineFailCount++;
                     _patternMovement.SetActiveFalse();
                     _battleAnimationHeart.Heart();
                 }
@@ -120,6 +125,7 @@ public class LineMovement : MonoBehaviour
                 else
                 {
                     for (int i = 0; i < ButtonStars._check.Length; i++) ButtonStars._check[i] = false;
+                    _turtorislcCheckM.LineFailCount++;
                     _patternMovement.SetActiveFalse();
                     _battleAnimationHeart.Heart();
                 }
@@ -136,6 +142,7 @@ public class LineMovement : MonoBehaviour
                 else
                 {
                     for (int i = 0; i < ButtonStars._check.Length; i++) ButtonStars._check[i] = false;
+                    _turtorislcCheckM.LineFailCount++;
                     _patternMovement.SetActiveFalse();
                     _battleAnimationHeart.Heart();
                 }
@@ -152,6 +159,7 @@ public class LineMovement : MonoBehaviour
                 else
                 {
                     for (int i = 0; i < ButtonStars._check.Length; i++) ButtonStars._check[i] = false;
+                    _turtorislcCheckM.LineFailCount++;
                     _patternMovement.SetActiveFalse();
                     _battleAnimationHeart.Heart();
                 }
@@ -168,6 +176,7 @@ public class LineMovement : MonoBehaviour
                 else
                 {
                     for (int i = 0; i < ButtonStars._check.Length; i++) ButtonStars._check[i] = false;
+                    _turtorislcCheckM.LineFailCount++;
                     _patternMovement.SetActiveFalse();
                     _battleAnimationHeart.Heart();
                 }

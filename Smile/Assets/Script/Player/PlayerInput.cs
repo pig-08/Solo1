@@ -8,18 +8,18 @@ public class PlayerInput : MonoBehaviour
     public PlayerPosition _position;
     public GameObject _talkMovement { private get; set; }
     private TvContact _tvContact;
-    private BookCaseContact _bookCaseContact;
+    private PlayerEnemyHint _enemyHint;
     public bool[] EnemeyCount { get; set; } = new bool[6];
     
     private void Awake()
     {
         _position = GetComponent<PlayerPosition>();
+        _enemyHint = GetComponent<PlayerEnemyHint>();
         EnemeyCount[0] = true;
     }
     public void ObjectGet()
     {
         _tvContact = FindObjectOfType<TvContact>() == null ? _tvContact = null : FindObjectOfType<TvContact>();
-        _bookCaseContact = FindObjectOfType<BookCaseContact>() == null ? _bookCaseContact = null : FindObjectOfType<BookCaseContact>();
     }
 
     private void Update()
@@ -47,6 +47,7 @@ public class PlayerInput : MonoBehaviour
         yield return null;
         if (EnemeyCount[0])
         {
+            _enemyHint.Hide = true;
             _tvContact.BoxCollider.isTrigger = true;
             EnemeyCount[0] = false;
         }

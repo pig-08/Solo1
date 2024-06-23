@@ -134,4 +134,15 @@ public class PlayerPosition : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
+    public void ENDPosition()
+    {
+        StartCoroutine(ENDPositionTime());
+    }
+
+    private IEnumerator ENDPositionTime()
+    {
+        yield return null;
+        transform.position = new Vector3(-8, 0);
+    }
 }

@@ -50,6 +50,7 @@ public class ButtonMovement : MonoBehaviour
         else if (_turtorislcCheck!= null)
         {
             SceneManager.LoadScene("BedRoom");
+            _playerEnemyHint.GameExitButtonSet(true);
             _playerPosition.PlayerVector();
             _playerPosition.SceneLocation();
         }
@@ -62,7 +63,14 @@ public class ButtonMovement : MonoBehaviour
         _playerPosition.HomeMovement();
         _playerPosition.SceneLocation();
         _playerInput.IsTrigger();
-        if (_playerEnemyHint.EnemyCount == 6) SceneManager.LoadScene("");
+        _playerEnemyHint.HintButtonSet(true);
+        _turtorislcCheck.EnemyCount++;
+        if (_playerEnemyHint.EnemyCount == 5)
+        {
+            _playerPosition.ENDPosition();
+            _playerEnemyHint.HintButtonSet(false);
+            SceneManager.LoadScene("ENDScene");
+        }
         else if (_playerEnemyHint.EnemyCount > 0) _playerEnemyHint.EnemyClick[_playerEnemyHint.EnemyCount - 1] = false;
         _playerEnemyHint.EnemyClick[_playerEnemyHint.EnemyCount++] = true;
         _playerInput.EnemeyCount[_playerEnemyHint.EnemyCount - 1] = true;
@@ -72,6 +80,7 @@ public class ButtonMovement : MonoBehaviour
 
     public void GameOver()
     {
+        _turtorislcCheck.DeathCount++;
         SceneManager.LoadScene("GameOver");
     }
 
@@ -81,5 +90,9 @@ public class ButtonMovement : MonoBehaviour
         SceneManager.LoadScene("StartScenes");
     }
 
+    public void Quit()
+    {
+        Application.Quit();
+    }
 
 }

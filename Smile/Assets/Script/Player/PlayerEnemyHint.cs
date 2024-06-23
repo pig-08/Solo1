@@ -2,17 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerEnemyHint : MonoBehaviour
 {
     [SerializeField]private List<GameObject> hints;
+    private PlayerPosition _playerPosition;
     public static HintTextMovement[] _hintTextMovement = new HintTextMovement[3];
     private int fontSize = 8;
-    public int EnemyCount { get; set; } = 0;
-    [field:SerializeField]public bool[] EnemyClick { get; set; } = new bool[5];
-    public bool Click { get; set; } 
+    [field:SerializeField]public int EnemyCount { get; set; } = 0;
+    public bool[] EnemyClick { get; set; } = new bool[6];
+    public bool Click { get; set; }
+    public bool Hide { get; set; }
+    public bool Hidee { get; set; }
     private void Start()
     {
+        _playerPosition = GetComponent<PlayerPosition>();
         foreach (var hint in hints)
         {
             hint.gameObject.SetActive(false);
@@ -28,6 +33,18 @@ public class PlayerEnemyHint : MonoBehaviour
     {
         hints[0].SetActive(bools);
     }
+
+    public void GameExitButtonSet(bool bools)
+    {
+        hints[2].SetActive(bools);
+    }
+
+    public void GameExit(bool bools)
+    {
+        hints[3].SetActive(bools);
+        if(Hide || Hidee) HintButtonSet(!bools);
+    }
+
     public void HintButton()
     {
         hints[0].SetActive(true);
@@ -70,6 +87,16 @@ public class PlayerEnemyHint : MonoBehaviour
         }
         foreach (var hint in _hintTextMovement)
             hint.SetText();
+    }
+    public void Restart()
+    {
+        _playerPosition.PlayerDelete();
+        SceneManager.LoadScene("StartScenes");
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
     }
 }
 

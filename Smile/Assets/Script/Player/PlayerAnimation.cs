@@ -36,4 +36,9 @@ public class PlayerAnimation : MonoBehaviour
         _animator.SetFloat(Anix, 0);
         _animator.SetFloat(Aniy, 0);
     }
+
+    public void ENDAnimeon()
+    {
+        _animator.SetFloat(Anix, 1);
+    }
 }

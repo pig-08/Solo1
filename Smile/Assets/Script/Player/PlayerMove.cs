@@ -29,7 +29,10 @@ public class PlayerMove : MonoBehaviour
             _playerAnimation.MoveAni();
             _playerrigid.velocity = _playerInput._movedir.normalized * _Speed;
         }
-        else if (!Battle) _playerrigid.velocity = new Vector2(0,0);
-    }    
+        else if (!Battle)
+        {
+            _playerrigid.velocity = new Vector2(0, 0);
+        }
+    }
 }
 

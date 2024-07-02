@@ -64,6 +64,7 @@ public class ButtonMovement : MonoBehaviour
         _playerPosition.SceneLocation();
         _playerInput.IsTrigger();
         _playerEnemyHint.HintButtonSet(true);
+        _playerEnemyHint.Hidee = false;
         _turtorislcCheck.EnemyCount++;
         if (_playerEnemyHint.EnemyCount == 5)
         {
@@ -75,6 +76,7 @@ public class ButtonMovement : MonoBehaviour
         _playerEnemyHint.EnemyClick[_playerEnemyHint.EnemyCount++] = true;
         _playerInput.EnemeyCount[_playerEnemyHint.EnemyCount - 1] = true;
         if (_playerPosition.BattleScene == 1) _playerPosition.FirstEnemy = true;
+        else if (_playerPosition.BattleScene == 2) _playerPosition.book = true;
 
     }
 

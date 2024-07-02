@@ -13,6 +13,7 @@ public class PlayerMove : MonoBehaviour
     public bool Battle {private get; set; } = true;
     public int _StartTalkCount { get; set; }
     public int _FirstTalkCount { get; set; }
+    public int _BookTalkCount { get; set; }
 
     private void Awake()
     {

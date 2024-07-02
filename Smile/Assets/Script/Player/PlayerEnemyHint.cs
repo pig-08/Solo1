@@ -42,7 +42,8 @@ public class PlayerEnemyHint : MonoBehaviour
     public void GameExit(bool bools)
     {
         hints[3].SetActive(bools);
-        if(Hide || Hidee) HintButtonSet(!bools);
+        if(Hide) HintButtonSet(!bools);
+        else if(Hidee) HintButtonSet(false);
     }
 
     public void HintButton()
@@ -64,7 +65,7 @@ public class PlayerEnemyHint : MonoBehaviour
         else if (EnemyClick[1])
         {
             HintTextMovement.Hint[0] = "1. 자신을 마주 보는 것은 힘든일이다."; HintTextMovement.Size[0] = fontSize;
-            HintTextMovement.Hint[1] = "2. 2. 용변을 보는 곳에 \n있는 물건은 저주가 \n잘 깃들기 마련이다."; HintTextMovement.Size[1] = fontSize-1;
+            HintTextMovement.Hint[1] = "2. 용변을 보는 곳에 \n있는 물건은 저주가 \n잘 깃들기 마련이다."; HintTextMovement.Size[1] = fontSize-1;
             HintTextMovement.Hint[2] = "3. 깨지기 쉬운 것 은 \n저주가 좋아한다."; HintTextMovement.Size[2] = fontSize;
         }
         else if (EnemyClick[2])

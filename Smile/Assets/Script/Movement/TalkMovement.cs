@@ -8,9 +8,11 @@ public class TalkMovement : MonoBehaviour
 {
     private string[] Startt = new string[3] { "이사를 온 이후로 쭉 악몽을 꾸고 있어..", "원인을 찾아 악몽에서 벗어나자!", "생각해보니 요즘 새벽에 TV가 자주 켜지던데 한번 가볼까?" };
     private string[] First = new string[4] { "저주을 해치웠다!!", "어? 이건 뭐지??", "다음 저주의 위치의 힌트인가보다!", "다음 저주를 찾아 모든 저주를 해치우자" };
+    private string[] Book = new string[3] {"2번째 저주를 해치웠다!", "어라?", "힌트의 내용이 조금 달라진것 같네??"};
     private TextMeshProUGUI _textMeshProUGUI;
     private static GameObject _image1;
     public static GameObject _image2;
+    public static GameObject _image3;
     private PlayerMove _playerMove;
     private PlayerInput _playerInput;
     private PlayerEnemyHint _playerEnemyHint;
@@ -36,6 +38,12 @@ public class TalkMovement : MonoBehaviour
             _image2 = gameObject;
             gameObject.SetActive(false);
         }
+        else if (gameObject.name[5] - 48 == 5)
+        {
+            _playerInput._talkMovementBook = gameObject;
+            _image3 = gameObject;
+            gameObject.SetActive(false);
+        }
     }
 
     private void Update()
@@ -47,6 +55,10 @@ public class TalkMovement : MonoBehaviour
         else if (gameObject.name[5] - 48 == 3) 
         {
             if(_playerMove._FirstTalkCount <= First.Length) FirstEnemyTalk();
+        }
+        else if (gameObject.name[5] - 48 == 6)
+        {
+            if (_playerMove._BookTalkCount <= First.Length) BookTalk();
         }
 
     }
@@ -98,6 +110,29 @@ public class TalkMovement : MonoBehaviour
                     _image2.SetActive(false);
                     _playerMove.Battle = true;
                     _playerEnemyHint.HintButtonSet(true);
+                }
+
+            }
+        }
+    }
+
+    private void BookTalk()
+    {
+        if (gameObject.name[5] - 48 == 6)
+        {
+            if (_playerMove._BookTalkCount == 0)
+                _textMeshProUGUI.text = Book[_playerMove._BookTalkCount++];
+            else if (_playerMove._BookTalkCount < Startt.Length)
+            {
+                if (Input.GetButtonDown("Fire1"))
+                    _textMeshProUGUI.text = Book[_playerMove._BookTalkCount++];
+            }
+            else
+            {
+                if (Input.GetButtonDown("Fire1"))
+                {
+                    _image3.SetActive(false);
+                    _playerMove.Battle = true;
                 }
 
             }

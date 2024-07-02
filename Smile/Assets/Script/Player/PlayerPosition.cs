@@ -14,14 +14,17 @@ public class PlayerPosition : MonoBehaviour
     private bool _WashRoom;
     private Vector3 _position;
     private PlayerInput _playerInput;
+    private PlayerEnemyHint _enemyHint;
     private CapsuleCollider2D _capsuleCollider;
     public int BattleScene { get; set;}
     public string SceneName { get;private set; }
     public bool FirstEnemy { get; set; }
+    public bool book { get; set; }
     private void Awake()
     {
         DontDestroyOnLoad(this);
         _playerInput = GetComponent<PlayerInput>();
+        _enemyHint = GetComponent<PlayerEnemyHint>();
         _capsuleCollider = GetComponent<CapsuleCollider2D>();
     }
 
@@ -83,11 +86,11 @@ public class PlayerPosition : MonoBehaviour
     private IEnumerator SceneLocationTime()
     {
         yield return null;
-        if (SceneManager.GetActiveScene().name == "FirstFloor")_FirstFloor = true;
-        else if (SceneManager.GetActiveScene().name == "SecondFloor")_SecondFloor = true;
-        else if (SceneManager.GetActiveScene().name == "BedRoom")_BedRoom = true;
-        else if (SceneManager.GetActiveScene().name == "BookRoom")_BookRoom = true;
-        else if(SceneManager.GetActiveScene().name == "WashRoom")_WashRoom = true;
+        if (SceneManager.GetActiveScene().name == "FirstFloor") _FirstFloor = true;
+        else if (SceneManager.GetActiveScene().name == "SecondFloor") _SecondFloor = true;
+        else if (SceneManager.GetActiveScene().name == "BedRoom") _BedRoom = true;
+        else if (SceneManager.GetActiveScene().name == "BookRoom") _BookRoom = true;
+        else if (SceneManager.GetActiveScene().name == "WashRoom") _WashRoom = true;
         _playerInput.ObjectGet();
     }
 

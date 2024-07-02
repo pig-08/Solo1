@@ -5,12 +5,15 @@ using UnityEngine;
 public class PatternMovement : MonoBehaviour
 {
     public GameObject[] Canvas{ private set; get; } = new GameObject[7];
+    private PlayerEnemyHint _playerEnemyHint;
     public static bool Linecolor;
     private int _click = 9999;
     private int _intcount = 999;
     private int _count = 0;
     private void Start()
     {
+        _playerEnemyHint = FindFirstObjectByType<PlayerEnemyHint>();
+        _playerEnemyHint.Hidee = true;
         foreach (GameObject item in Canvas)
         {
             item.SetActive(false);

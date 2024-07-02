@@ -20,7 +20,7 @@ public class BookCaseContact : MonoBehaviour
         if (_enemyHint.EnemyClick[0])
         {
             _battleButtonMovement.Window(1);
-            _playerPosition.BattleScene = 0;
+            _playerPosition.BattleScene = 2;
         }
     }
 }

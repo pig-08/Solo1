@@ -7,6 +7,7 @@ public class PlayerInput : MonoBehaviour
     public Vector3 _movedir { get; private set; }
     public PlayerPosition _position;
     public GameObject _talkMovement { private get; set; }
+    public GameObject _talkMovementBook { private get; set; }
     private TvContact _tvContact;
     private PlayerEnemyHint _enemyHint;
     public bool[] EnemeyCount { get; set; } = new bool[6];
@@ -28,6 +29,11 @@ public class PlayerInput : MonoBehaviour
         {
             _talkMovement.SetActive(true);
             _position.FirstEnemy = false;
+        }
+        else if(_position.book)
+        {
+            _talkMovementBook.SetActive(true);
+            _position.book = false;
         }
     }
     public void Move()

@@ -44,6 +44,7 @@ public class BattleButtonMovement : MonoBehaviour
         _playerEnemyHint.HintButtonSet(false);
         SceneManager.LoadScene("BattleScene");
         _playerAnimation.Animationfalse();
+        _playerPosition.SceneLocation();
         _playerPosition.BattlePosition();
     }
 }
